@@ -138,7 +138,6 @@ PEDALCURVE  03        005
 + +   Big Sky
 + 03 PC    002    
 + +   Nemesis Delay
-+ +   MIDI Clock @ 141
 ;---------------------------------------------------------------
 * PATCH    : Soldierette
 + 01 PC    024    
@@ -147,7 +146,6 @@ PEDALCURVE  03        005
 + +   Big Sky
 + 03 PC    002    
 + +   Nemesis Delay
-+ +   MIDI Clock @ 111
 ;---------------------------------------------------------------
 * PATCH    : Speed of Sound
 + 01 PC    020    
@@ -155,7 +153,6 @@ PEDALCURVE  03        005
 + -   Big Sky
 + 03 PC    000    
 + +   Nemesis Delay
-+ +   MIDI Clock @ 80
 ;---------------------------------------------------------------
 * PATCH    : Unbearable
 + 01 PC    013    
@@ -163,7 +160,6 @@ PEDALCURVE  03        005
 + -   Big Sky
 + 03 PC    001    
 + -   Nemesis Delay
-+ +   MIDI Clock @ 81
 ;---------------------------------------------------------------
 * PATCH    : Florence
 + 01 PC    012    
@@ -171,7 +167,6 @@ PEDALCURVE  03        005
 + -   Big Sky
 + 03 PC    000    
 + -   Nemesis Delay
-+ +   MIDI Clock @ 148
 ;---------------------------------------------------------------
 * PATCH    : Hearts Astray
 + 01 PC    023    
@@ -180,7 +175,6 @@ PEDALCURVE  03        005
 + +   Big Sky
 + 03 PC    002    
 + +   Nemesis Delay
-+ +   MIDI Clock @ 104
 ;---------------------------------------------------------------
 * PATCH    : Just Human
 + 01 PC    018    
@@ -188,7 +182,6 @@ PEDALCURVE  03        005
 + -   Big Sky
 + 03 PC    002    
 + -   Nemesis Delay
-+ +   MIDI Clock @ 149
 ;---------------------------------------------------------------
 * PATCH    : Muscle Memory
 + 01 PC    026    
@@ -197,7 +190,6 @@ PEDALCURVE  03        005
 + +   Big Sky
 + 03 PC    002    
 + +   Nemesis Delay
-+ +   MIDI Clock @ 125
 ;---------------------------------------------------------------
 * PATCH    : No Pioneer
 + 01 PC    000    
@@ -206,7 +198,6 @@ PEDALCURVE  03        005
 + +   Big Sky
 + 03 PC    002    
 + +   Nemesis Delay
-+ +   MIDI Clock @ 147
 ;---------------------------------------------------------------
 * PATCH    : Avalanche
 + 01 PC    001    
@@ -214,7 +205,6 @@ PEDALCURVE  03        005
 + -   Big Sky
 + 03 PC    000    
 + -   Nemesis Delay
-+ +   MIDI Clock @ 98
 ;---------------------------------------------------------------
 * PATCH    : Euphoria Heights
 + 01 PC    002    
@@ -223,27 +213,23 @@ PEDALCURVE  03        005
 + +   Big Sky
 + 03 PC    003    
 + +   Nemesis Delay
-+ +   MIDI Clock @ 135
 ;---------------------------------------------------------------
 * PATCH    : Reverie
 + 01 PC    003    
 + 02 PC    003    
 + -   Big Sky
 + -   Nemesis Delay
-+ +   MIDI Clock @ 87
 ;---------------------------------------------------------------
 * PATCH    : My Design
 + 01 PC    004    
 + 02 PC    004    
 + -   Big Sky
 + -   Nemesis Delay
-+ +   MIDI Clock @ 132
 ;---------------------------------------------------------------
 * PATCH    : Embers
 + 02 PC    005    
 + -   Big Sky
 + -   Nemesis Delay
-+ +   MIDI Clock @ 135
 ;---------------------------------------------------------------
 * PATCH    : Unshielded
 + 01 PC    007    
