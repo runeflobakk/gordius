@@ -1,0 +1,1072 @@
+;===============================================================
+;=====   LittleGiant2 setup                                =====
+;=====                                                     =====
+;===== Filename : /Users/runeflobakk/Downloads/gordius-lg2/setups/no-mans-island-lg2 =====
+;===== Created  : 25/02/2019                               =====
+;===== Version  : 3.0                                      =====
+;===============================================================
+
+;===============================================================
+;=====   GLOBAL DATA                                       =====
+;===============================================================
+
+CONTROLLER_TYPE       LG
+SLAVECONTROLLER_TYPE  FCB
+OPERATIONMODE         Regular mode
+TRIGGERNOTEOFFSET     0
+DIM_LED_MODE          dimIfNonEmpty
+NR_OF_FCBS            1
+MIDI1OUTFILTER        111111111111111111
+MIDI2OUTFILTER        111111111111111111
+NUM_BEATS_PER_MEASURE 4
+MIDISTART_NUM_TAPS    1
+MIDICONTROL_CHANNEL   0
+KPA CONTROL_CHANNEL   0
+LED_DIMMING           0
+METRONOME_LEDMASK_L   1
+METRONOME_LEDMASK_H   64
+USE_METRONOME         False
+USE_DIRECT_BANK_1     False
+USE_DIRECT_BANK_2     False
+USE_DIRECT_BANK_12    False
+BROWSE_BANKLIST       False
+USE_ROTARY_FOR_TEMPO  True
+USE_KPA               False
+USE_SLAVECONTROLLER   False
+USE_MIDIFILTER        False
+MAP_INCOMING_CHANNELS False
+USE_MENULOCK          False
+USE_UPDOWNLOCK        False
+ACCEPT_MIDICONTROL    False
+BLOCK_PC_RESEND       False
+AUTO_SWITCH_DELAY     True
+USE_AUTOENGAGE        False
+CALCULATE_TAPTEMPO_CC False
+DISABLE_MIDI_IN_LED   False
+MIDILEDS_4_DIR12      False
+ENABLE_EXPRDISPLAY    False
+DELAYED_EXPRDISPLAY   False
+DISPLAY_PRESETNAME    True
+DISPLAY_STOMPBOXNAMES False
+SONGS_ARE_BANKS       True
+BANKPRESETDISPLAY     False
+DIRBANKPRESETDISPLAY  False
+DISABLE_MIDI_OUT_LED  False
+SHOW_MIDICLK_ON_BEAT  False
+SHOW_CLK_BPM          False
+SEND_MIDICLK_ON_BEAT  True
+SEND_MIDIMSG_ON_BEAT  False
+PC_OFFSET             False
+INFINITE_SETLIST      False
+INFINITE_BANKLIST     False
+USE_DWN_FOR_NEXT_SONG True
+USE_DWN_FOR_NEXT_BANK True
+USE_UPDWN_AS_D1D2     False
+USE_UPDWN_FOR_PRESETS False
+SHOW_EXT_SWITCHLEDS   False
+SHOW_EXT_LEDS_BELOW   False
+MIDIIN_TO_MIDIOUT     False
+MIDIIN_TO_USB         True
+MSG_TO_MIDIOUT        True
+MSG_TO_USB            False
+DEFAULT_BANKLIST      No Man's Island
+TIPHEEL DELAY         0
+NUM_BANKS             100
+GLOBAL_SWITCHES_L     0
+GLOBAL_SWITCHES_H     0
+MIDICHANNEL 01        01 [Active]     Andromeda
+MIDICHANNEL 02        02 [Active]     Nord Electro
+MIDICHANNEL 03        03 [Active]     Nemesis
+MIDICHANNEL 04        04 [Active]     BigSky
+MIDICHANNEL 05        05 [Active]     Channel 05
+MIDICHANNEL 06        06 [Active]     Channel 06
+MIDICHANNEL 07        07 [Active]     Channel 07
+MIDICHANNEL 08        08 [Active]     Channel 08
+MIDICHANNEL 09        09 [Active]     Channel 09
+MIDICHANNEL 10        10 [Active]     Channel 10
+MIDICHANNEL 11        11 [Active]     Channel 11
+MIDICHANNEL 12        12 [Active]     Channel 12
+MIDICHANNEL 13        13 [Active]     Channel 13
+MIDICHANNEL 14        14 [Active]     Channel 14
+MIDICHANNEL 15        15 [Active]     Channel 15
+MIDICHANNEL 16        16 [Active]     MicroKorg
+DATAVARIABLE001       102 - BigSky toggle
+DATAVARIABLE002       000 - Off
+DATAVARIABLE003       127 - On
+DATAVARIABLE004       038 - Nemesis toggle
+EXPRPEDAL   01 CONFIG 021
+EXPRPEDAL   01 DEAD_H 000
+EXPRPEDAL   01 DEAD_T 000
+EXPRPEDAL   02 CONFIG 000
+EXPRPEDAL   02 DEAD_H 000
+EXPRPEDAL   02 DEAD_T 000
+EXPRPEDAL   03 CONFIG 000
+EXPRPEDAL   03 DEAD_H 000
+EXPRPEDAL   03 DEAD_T 000
+EXPRPEDAL   04 CONFIG 000
+EXPRPEDAL   04 DEAD_H 000
+EXPRPEDAL   04 DEAD_T 000
+EXPRPEDAL   05 CONFIG 000
+EXPRPEDAL   05 DEAD_H 000
+EXPRPEDAL   05 DEAD_T 000
+EXPRPEDAL   06 CONFIG 000
+EXPRPEDAL   06 DEAD_H 000
+EXPRPEDAL   06 DEAD_T 000
+EXPRPEDAL   07 CONFIG 000
+EXPRPEDAL   07 DEAD_H 000
+EXPRPEDAL   07 DEAD_T 000
+EXPRPEDAL   08 CONFIG 000
+EXPRPEDAL   08 DEAD_H 000
+EXPRPEDAL   08 DEAD_T 000
+PEDALCURVE  00        005
+PEDALCURVE  01        005
+PEDALCURVE  02        005
+PEDALCURVE  03        005
+;===============================================================
+;=====   MACROS                                            =====
+;===============================================================
+
+
+;===============================================================
+;=====   PRESET DATA                                       =====
+;===============================================================
+
+* PATCH    : Flammable
++ 01 PC    006    
++ 02 PC    006    
++ 04 PC    001    
++ +   Big Sky
++ 03 PC    002    
++ +   Nemesis Delay
++ +   MIDI Clock @ 141
+;---------------------------------------------------------------
+* PATCH    : Soldierette
++ 01 PC    024    
++ 02 PC    014    
++ 04 PC    001    
++ +   Big Sky
++ 03 PC    002    
++ +   Nemesis Delay
++ +   MIDI Clock @ 111
+;---------------------------------------------------------------
+* PATCH    : Speed of Sound
++ 01 PC    020    
++ 02 PC    007    
++ -   Big Sky
++ 03 PC    000    
++ +   Nemesis Delay
++ +   MIDI Clock @ 80
+;---------------------------------------------------------------
+* PATCH    : Unbearable
++ 01 PC    013    
++ 02 PC    013    
++ -   Big Sky
++ 03 PC    001    
++ -   Nemesis Delay
++ +   MIDI Clock @ 81
+;---------------------------------------------------------------
+* PATCH    : Florence
++ 01 PC    012    
++ 02 PC    009    
++ -   Big Sky
++ 03 PC    000    
++ -   Nemesis Delay
++ +   MIDI Clock @ 148
+;---------------------------------------------------------------
+* PATCH    : Hearts Astray
++ 01 PC    023    
++ 02 PC    010    
++ 04 PC    000    
++ +   Big Sky
++ 03 PC    002    
++ +   Nemesis Delay
++ +   MIDI Clock @ 104
+;---------------------------------------------------------------
+* PATCH    : Just Human
++ 01 PC    018    
++ 02 PC    008    
++ -   Big Sky
++ 03 PC    002    
++ -   Nemesis Delay
++ +   MIDI Clock @ 149
+;---------------------------------------------------------------
+* PATCH    : Muscle Memory
++ 01 PC    026    
++ 02 PC    011    
++ 04 PC    000    
++ +   Big Sky
++ 03 PC    002    
++ +   Nemesis Delay
++ +   MIDI Clock @ 125
+;---------------------------------------------------------------
+* PATCH    : No Pioneer
++ 01 PC    000    
++ 02 PC    000    
++ 04 PC    000    
++ +   Big Sky
++ 03 PC    002    
++ +   Nemesis Delay
++ +   MIDI Clock @ 147
+;---------------------------------------------------------------
+* PATCH    : Avalanche
++ 01 PC    001    
++ 02 PC    001    
++ -   Big Sky
++ 03 PC    000    
++ -   Nemesis Delay
++ +   MIDI Clock @ 98
+;---------------------------------------------------------------
+* PATCH    : Euphoria Heights
++ 01 PC    002    
++ 02 PC    002    
++ 04 PC    001    
++ +   Big Sky
++ 03 PC    003    
++ +   Nemesis Delay
++ +   MIDI Clock @ 135
+;---------------------------------------------------------------
+* PATCH    : Reverie
++ 01 PC    003    
++ 02 PC    003    
++ -   Big Sky
++ -   Nemesis Delay
++ +   MIDI Clock @ 87
+;---------------------------------------------------------------
+* PATCH    : My Design
++ 01 PC    004    
++ 02 PC    004    
++ -   Big Sky
++ -   Nemesis Delay
++ +   MIDI Clock @ 132
+;---------------------------------------------------------------
+* PATCH    : Embers
++ 02 PC    005    
++ -   Big Sky
++ -   Nemesis Delay
++ +   MIDI Clock @ 135
+;---------------------------------------------------------------
+* PATCH    : Unshielded
++ 01 PC    007    
++ 04 PC    001    
++ +   Big Sky
++ 03 PC    002    
++ +   Nemesis Delay
+;---------------------------------------------------------------
+* STOMPBOX : Big Sky
++ 04 CC    128 130
+- 04 CC    128 129
+;---------------------------------------------------------------
+* STOMPBOX : Nemesis Delay
++ NONBL. DELAY 002
++ 03 CC    131 130
+- NONBL. DELAY 002
+- 03 CC    131 129
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 70
++ METRONOME    070
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 71
++ METRONOME    071
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 72
++ METRONOME    072
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 73
++ METRONOME    073
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 74
++ METRONOME    074
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 75
++ METRONOME    075
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 76
++ METRONOME    076
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 77
++ METRONOME    077
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 78
++ METRONOME    078
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 79
++ METRONOME    079
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 80
++ METRONOME    080
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 81
++ METRONOME    081
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 82
++ METRONOME    082
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 83
++ METRONOME    083
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 84
++ METRONOME    084
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 85
++ METRONOME    085
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 86
++ METRONOME    086
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 87
++ METRONOME    087
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 88
++ METRONOME    088
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 89
++ METRONOME    089
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 90
++ METRONOME    090
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 91
++ METRONOME    091
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 92
++ METRONOME    092
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 93
++ METRONOME    093
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 94
++ METRONOME    094
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 95
++ METRONOME    095
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 96
++ METRONOME    096
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 97
++ METRONOME    097
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 98
++ METRONOME    098
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 99
++ METRONOME    099
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 100
++ METRONOME    100
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 101
++ METRONOME    101
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 102
++ METRONOME    102
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 103
++ METRONOME    103
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 104
++ METRONOME    104
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 105
++ METRONOME    105
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 106
++ METRONOME    106
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 107
++ METRONOME    107
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 108
++ METRONOME    108
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 109
++ METRONOME    109
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 110
++ METRONOME    110
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 111
++ METRONOME    111
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 112
++ METRONOME    112
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 113
++ METRONOME    113
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 114
++ METRONOME    114
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 115
++ METRONOME    115
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 116
++ METRONOME    116
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 117
++ METRONOME    117
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 118
++ METRONOME    118
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 119
++ METRONOME    119
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 120
++ METRONOME    120
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 121
++ METRONOME    121
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 122
++ METRONOME    122
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 123
++ METRONOME    123
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 124
++ METRONOME    124
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 125
++ METRONOME    125
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 126
++ METRONOME    126
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 127
++ METRONOME    127
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 128
++ METRONOME    128
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 129
++ METRONOME    129
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 130
++ METRONOME    130
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 131
++ METRONOME    131
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 132
++ METRONOME    132
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 133
++ METRONOME    133
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 134
++ METRONOME    134
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 135
++ METRONOME    135
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 136
++ METRONOME    136
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 137
++ METRONOME    137
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 138
++ METRONOME    138
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 139
++ METRONOME    139
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 140
++ METRONOME    140
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 141
++ METRONOME    141
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 142
++ METRONOME    142
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 143
++ METRONOME    143
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 144
++ METRONOME    144
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 145
++ METRONOME    145
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 146
++ METRONOME    146
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 147
++ METRONOME    147
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 148
++ METRONOME    148
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 149
++ METRONOME    149
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 150
++ METRONOME    150
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 151
++ METRONOME    151
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 152
++ METRONOME    152
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 153
++ METRONOME    153
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 154
++ METRONOME    154
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 155
++ METRONOME    155
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 156
++ METRONOME    156
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 157
++ METRONOME    157
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 158
++ METRONOME    158
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 159
++ METRONOME    159
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 160
++ METRONOME    160
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
+;---------------------------------------------------------------
+* STOMPBOX : Sustain
++ 01 CC    064 127
+- 01 CC    064 000
+;---------------------------------------------------------------
+* STOMPBOX : Note C4 + Start
++ -- MIDI_STOP    
++ BLOCK. DELAY 020
++ -- MIDI_START   
++ 01 NOTE+ 048 127
+- 01 NOTE- 048 127
+;---------------------------------------------------------------
+* EFFECT   : Sustain-pedal
++ 16 CC    064 000
+- 16 CC    064 127
+;---------------------------------------------------------------
+* EFFECT   : Tap tempo
++ TAPTEMPO     000
+;---------------------------------------------------------------
+
+;===============================================================
+;=====   EXPRESSIONPEDAL DATA                              =====
+;===============================================================
+
+
+;===============================================================
+;=====   PRESETGROUP DATA                                  =====
+;===============================================================
+
+
+;===============================================================
+;=====   BANK DATA                                         =====
+;===============================================================
+
+* BANK : Base setup
+
+switch 01 : ME Tap tempo
+switch 07 : SB Big Sky
+switch 08 : SB Nemesis Delay
+ext.sw.01 : ME Sustain-pedal
+;---------------------------------------------------------------
+* BANK : Flammable
+
+DEFAULTPRESET Flammable
+DERIVED FROM Base setup
+switch 05 : SB MIDI Clock @ 141
+;---------------------------------------------------------------
+* BANK : Soldierette
+
+DEFAULTPRESET Soldierette
+DERIVED FROM Base setup
+switch 05 : SB MIDI Clock @ 111
+;---------------------------------------------------------------
+* BANK : Unbearable
+
+DEFAULTPRESET Unbearable
+DERIVED FROM Base setup
+switch 05 : SB MIDI Clock @ 81
+;---------------------------------------------------------------
+* BANK : Florence
+
+DEFAULTPRESET Florence
+DERIVED FROM Base setup
+switch 05 : SB MIDI Clock @ 148
+;---------------------------------------------------------------
+* BANK : Hearts Astray
+
+DEFAULTPRESET Hearts Astray
+DERIVED FROM Base setup
+switch 05 : SB MIDI Clock @ 104
+;---------------------------------------------------------------
+* BANK : Just Human
+
+DEFAULTPRESET Just Human
+DERIVED FROM Base setup
+switch 05 : SB MIDI Clock @ 149
+;---------------------------------------------------------------
+* BANK : Muscle Memory
+
+DEFAULTPRESET Muscle Memory
+DERIVED FROM Base setup
+switch 05 : SB MIDI Clock @ 125
+;---------------------------------------------------------------
+* BANK : No Pioneer
+
+DEFAULTPRESET No Pioneer
+DERIVED FROM Base setup
+switch 05 : SB MIDI Clock @ 147
+;---------------------------------------------------------------
+* BANK : Avalanche
+
+DEFAULTPRESET Avalanche
+DERIVED FROM Base setup
+switch 05 : SB MIDI Clock @ 98
+;---------------------------------------------------------------
+* BANK : Euphoria Heights
+
+DEFAULTPRESET Euphoria Heights
+DERIVED FROM Base setup
+switch 05 : SB MIDI Clock @ 135
+;---------------------------------------------------------------
+* BANK : Reverie
+
+DEFAULTPRESET Reverie
+DERIVED FROM Base setup
+switch 05 : SB MIDI Clock @ 87
+;---------------------------------------------------------------
+* BANK : My Design
+
+DEFAULTPRESET My Design
+DERIVED FROM Base setup
+switch 05 : SB MIDI Clock @ 132
+;---------------------------------------------------------------
+* BANK : Embers
+
+DEFAULTPRESET Embers
+DERIVED FROM Base setup
+switch 05 : SB MIDI Clock @ 135
+;---------------------------------------------------------------
+* BANK : Unshielded
+
+DEFAULTPRESET Unshielded
+DERIVED FROM Base setup
+switch 02 : SB Sustain
+switch 05 : SB MIDI Clock @ 124
+;---------------------------------------------------------------
+* BANK : Speed of Sound
+
+DEFAULTPRESET Speed of Sound
+DERIVED FROM Base setup
+switch 02 : SB Note C4 + Start
+switch 05 : SB MIDI Clock @ 80
+;---------------------------------------------------------------
+
+;===============================================================
+;=====   SONG DATA                                         =====
+;===============================================================
+
+* SONG : Flammable
+  USES BANK Flammable
+  DEFAULT PRESET 
+  PRESETLIST 
+[ no lyrics ]
+;---------------------------------------------------------------
+* SONG : Soldierette
+  USES BANK Soldierette
+  DEFAULT PRESET 
+  PRESETLIST 
+[ no lyrics ]
+;---------------------------------------------------------------
+* SONG : Speed of Sound
+  USES BANK Speed of Sound
+  DEFAULT PRESET 
+  PRESETLIST 
+[ no lyrics ]
+;---------------------------------------------------------------
+* SONG : Base setup
+  USES BANK Base setup
+  DEFAULT PRESET 
+  PRESETLIST 
+[ no lyrics ]
+;---------------------------------------------------------------
+* SONG : Unbearable
+  USES BANK Unbearable
+  DEFAULT PRESET 
+  PRESETLIST 
+[ no lyrics ]
+;---------------------------------------------------------------
+* SONG : Florence
+  USES BANK Florence
+  DEFAULT PRESET 
+  PRESETLIST 
+[ no lyrics ]
+;---------------------------------------------------------------
+* SONG : Hearts Astray
+  USES BANK Hearts Astray
+  DEFAULT PRESET 
+  PRESETLIST 
+[ no lyrics ]
+;---------------------------------------------------------------
+* SONG : Just Human
+  USES BANK Just Human
+  DEFAULT PRESET 
+  PRESETLIST 
+[ no lyrics ]
+;---------------------------------------------------------------
+* SONG : Muscle Memory
+  USES BANK Muscle Memory
+  DEFAULT PRESET 
+  PRESETLIST 
+[ no lyrics ]
+;---------------------------------------------------------------
+* SONG : No Pioneer
+  USES BANK No Pioneer
+  DEFAULT PRESET 
+  PRESETLIST 
+[ no lyrics ]
+;---------------------------------------------------------------
+* SONG : Avalanche
+  USES BANK Avalanche
+  DEFAULT PRESET 
+  PRESETLIST 
+[ no lyrics ]
+;---------------------------------------------------------------
+* SONG : Euphoria Heights
+  USES BANK Euphoria Heights
+  DEFAULT PRESET 
+  PRESETLIST 
+[ no lyrics ]
+;---------------------------------------------------------------
+* SONG : Reverie
+  USES BANK Reverie
+  DEFAULT PRESET 
+  PRESETLIST 
+[ no lyrics ]
+;---------------------------------------------------------------
+* SONG : My Design
+  USES BANK My Design
+  DEFAULT PRESET 
+  PRESETLIST 
+[ no lyrics ]
+;---------------------------------------------------------------
+* SONG : Embers
+  USES BANK Embers
+  DEFAULT PRESET 
+  PRESETLIST 
+[ no lyrics ]
+;---------------------------------------------------------------
+* SONG : Unshielded
+  USES BANK Unshielded
+  DEFAULT PRESET 
+  PRESETLIST 
+[ no lyrics ]
+;---------------------------------------------------------------
+
+;===============================================================
+;=====   BANKLIST DATA                                     =====
+;===============================================================
+
+* BANKLIST : No Man's Island
+;-------------------------------
+Flammable        
+Hearts Astray    
+Soldierette      
+Unbearable       
+Speed of Sound   
+Florence         
+Just Human       
+Muscle Memory    
+No Pioneer       
+Avalanche        
+Euphoria Heights 
+Reverie          
+My Design        
+Embers           
+Unshielded       
+;---------------------------------------------------------------
+
+;===============================================================
+;=====   SETLIST DATA                                      =====
+;===============================================================
+
+
