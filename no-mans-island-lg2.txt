@@ -257,9 +257,9 @@ PEDALCURVE  03        005
 - 04 CC    128 129
 ;---------------------------------------------------------------
 * STOMPBOX : Nemesis Delay
-+ NONBL. DELAY 002
++ NONBL. DELAY 001
 + 03 CC    131 130
-- NONBL. DELAY 002
+- NONBL. DELAY 001
 - 03 CC    131 129
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 70
