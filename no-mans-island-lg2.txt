@@ -2,7 +2,7 @@
 ;=====   LittleGiant2 setup                                =====
 ;=====                                                     =====
 ;===== Filename : /Users/runeflobakk/Downloads/gordius-lg2/setups/no-mans-island-lg2 =====
-;===== Created  : 25/02/2019                               =====
+;===== Created  : 18/03/2019                               =====
 ;===== Version  : 3.0                                      =====
 ;===============================================================
 
@@ -850,7 +850,7 @@ switch 05 : SB MIDI Clock @ 111
 
 DEFAULTPRESET Unbearable
 DERIVED FROM Base setup
-switch 05 : SB MIDI Clock @ 81
+switch 05 : SB MIDI Clock @ 82
 ;---------------------------------------------------------------
 * BANK : Florence
 
