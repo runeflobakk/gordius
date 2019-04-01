@@ -1058,10 +1058,6 @@ Just Human
 Muscle Memory    
 No Pioneer       
 Avalanche        
-Euphoria Heights 
-Reverie          
-My Design        
-Embers           
 Unshielded       
 Afterski         
 ;---------------------------------------------------------------
@@ -1079,6 +1075,13 @@ Unshielded
 No Pioneer       
 Muscle Memory    
 Just Human       
+;---------------------------------------------------------------
+* BANKLIST : Archive
+;-------------------------------
+Reverie          
+Euphoria Heights 
+Embers           
+My Design        
 ;---------------------------------------------------------------
 
 ;===============================================================
