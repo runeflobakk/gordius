@@ -2,7 +2,7 @@
 ;=====   LittleGiant2 setup                                =====
 ;=====                                                     =====
 ;===== Filename : /Users/runeflobakk/Downloads/gordius-lg2/setups/no-mans-island-lg2 =====
-;===== Created  : 18/03/2019                               =====
+;===== Created  : 01/04/2019                               =====
 ;===== Version  : 3.0                                      =====
 ;===============================================================
 
@@ -69,7 +69,7 @@ MIDIIN_TO_MIDIOUT     False
 MIDIIN_TO_USB         True
 MSG_TO_MIDIOUT        True
 MSG_TO_USB            False
-DEFAULT_BANKLIST      No Man's Island
+DEFAULT_BANKLIST      Verkstedet 2019
 TIPHEEL DELAY         0
 NUM_BANKS             100
 GLOBAL_SWITCHES_L     0
@@ -1064,6 +1064,21 @@ My Design
 Embers           
 Unshielded       
 Afterski         
+;---------------------------------------------------------------
+* BANKLIST : Verkstedet 2019
+;-------------------------------
+Speed of Sound   
+Soldierette      
+Avalanche        
+Hearts Astray    
+Unbearable       
+Afterski         
+Flammable        
+Florence         
+Unshielded       
+No Pioneer       
+Muscle Memory    
+Just Human       
 ;---------------------------------------------------------------
 
 ;===============================================================
