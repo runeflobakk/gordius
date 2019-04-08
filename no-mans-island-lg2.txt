@@ -819,6 +819,10 @@ PEDALCURVE  03        005
 + 01 NOTE+ 048 127
 - 01 NOTE- 048 127
 ;---------------------------------------------------------------
+* STOMPBOX : Note C4
++ 01 NOTE+ 048 127
+- 01 NOTE- 048 127
+;---------------------------------------------------------------
 * EFFECT   : Sustain-pedal
 + 16 CC    064 000
 - 16 CC    064 127
@@ -897,6 +901,7 @@ switch 05 : SB MIDI Clock @ 125
 
 DEFAULTPRESET No Pioneer
 DERIVED FROM Base setup
+switch 02 : SB Note C4
 switch 05 : SB MIDI Clock @ 147
 ;---------------------------------------------------------------
 * BANK : Avalanche
