@@ -172,9 +172,10 @@ PEDALCURVE  03        005
 * PATCH    : Florence
 + 01 PC    012    
 + 02 PC    009    
-+ -   Big Sky
++ 04 PC    000    
++ +   Big Sky
 + 03 PC    000    
-+ -   Nemesis Delay
++ +   Nemesis Delay
 ;---------------------------------------------------------------
 * PATCH    : Hearts Astray
 + 01 PC    023    
@@ -251,6 +252,22 @@ PEDALCURVE  03        005
 ;---------------------------------------------------------------
 * PATCH    : Afterski Tempo
 + +   MIDI Clock @ 115
+;---------------------------------------------------------------
+* TRIGGER  : Florence SubBass
++ 01 NOTE+ 037 127
+;---------------------------------------------------------------
+* TRIGGER  : Florence BassSeq
++ +*  MIDI Clock @ 148
++ 05 NOTE+ 038 127
++ GL.METRONOME 148
++ -- MIDI_START   
+;---------------------------------------------------------------
+* TRIGGER  : FlorenceIntroEND
++ 01 NOTE- 037 127
++ 05 NOTE- 038 127
++ SYNBL. DELAY 008
++ -   Big Sky
++ -   Nemesis Delay
 ;---------------------------------------------------------------
 * STOMPBOX : Big Sky
 + 04 CC    128 130
@@ -854,6 +871,14 @@ PEDALCURVE  03        005
 ;=====   PRESETGROUP DATA                                  =====
 ;===============================================================
 
+* TRIGGERGROUP : Flornece Intro
+;-------------------------------
+Scroll behavior : Linear
+Listindex reset : Reset on select
+Florence SubBass
+Florence BassSeq
+FlorenceIntroEND
+;---------------------------------------------------------------
 
 ;===============================================================
 ;=====   BANK DATA                                         =====
@@ -888,6 +913,7 @@ switch 05 : SB MIDI Clock @ 82
 
 DEFAULTPRESET Florence
 DERIVED FROM Base setup
+switch 02 : TG Flornece Intro
 switch 05 : SB MIDI Clock @ 148
 ;---------------------------------------------------------------
 * BANK : Hearts Astray
