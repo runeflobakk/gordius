@@ -273,6 +273,17 @@ PEDALCURVE  03        005
 + 01 NOTE+ 048 127
 - 01 NOTE- 048 127
 ;---------------------------------------------------------------
+* STOMPBOX : HeartsAstray Arp
++ IF !E.MIDI Clock @ 104
++ +   MIDI Clock @ 104
++ ENDIF           
++ 01 NOTE+ 040 110
++ 01 NOTE+ 047 110
++ 01 NOTE+ 052 110
+- 01 NOTE- 052 127
+- 01 NOTE- 047 127
+- 01 NOTE- 040 127
+;---------------------------------------------------------------
 * STOMPBOX : Note C4
 + 01 NOTE+ 048 127
 - 01 NOTE- 048 127
@@ -883,7 +894,7 @@ switch 05 : SB MIDI Clock @ 148
 
 DEFAULTPRESET Hearts Astray
 DERIVED FROM Base setup
-switch 02 : SB Sustain
+switch 02 : SB HeartsAstray Arp
 switch 05 : SB MIDI Clock @ 104
 ;---------------------------------------------------------------
 * BANK : Just Human
