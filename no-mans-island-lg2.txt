@@ -266,10 +266,10 @@ PEDALCURVE  03        005
 + 01 CC    064 127
 - 01 CC    064 000
 ;---------------------------------------------------------------
-* STOMPBOX : Note C4 + Start
-+ -- MIDI_STOP    
-+ BLOCK. DELAY 020
-+ -- MIDI_START   
+* STOMPBOX : Note C4 + 80 BPM
++ IF !E.MIDI Clock @ 80
++ +   MIDI Clock @ 80
++ ENDIF           
 + 01 NOTE+ 048 127
 - 01 NOTE- 048 127
 ;---------------------------------------------------------------
@@ -946,7 +946,7 @@ switch 05 : SB MIDI Clock @ 124
 
 DEFAULTPRESET Speed of Sound
 DERIVED FROM Base setup
-switch 02 : SB Note C4 + Start
+switch 02 : SB Note C4 + 80 BPM
 switch 05 : SB MIDI Clock @ 80
 ;---------------------------------------------------------------
 * BANK : Afterski
