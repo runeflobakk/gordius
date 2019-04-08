@@ -2,7 +2,7 @@
 ;=====   LittleGiant2 setup                                =====
 ;=====                                                     =====
 ;===== Filename : /Users/runeflobakk/Downloads/gordius-lg2/setups/no-mans-island-lg2 =====
-;===== Created  : 01/04/2019                               =====
+;===== Created  : 08/04/2019                               =====
 ;===== Version  : 3.0                                      =====
 ;===============================================================
 
@@ -1073,15 +1073,15 @@ Afterski
 ;---------------------------------------------------------------
 * BANKLIST : Verkstedet 2019
 ;-------------------------------
-Speed of Sound   
-Soldierette      
-Avalanche        
 Hearts Astray    
+Unshielded       
+Speed of Sound   
+Florence         
 Unbearable       
 Afterski         
 Flammable        
-Florence         
-Unshielded       
+Avalanche        
+Soldierette      
 No Pioneer       
 Muscle Memory    
 Just Human       
