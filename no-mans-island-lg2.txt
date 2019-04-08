@@ -883,6 +883,7 @@ switch 05 : SB MIDI Clock @ 148
 
 DEFAULTPRESET Hearts Astray
 DERIVED FROM Base setup
+switch 02 : SB Sustain
 switch 05 : SB MIDI Clock @ 104
 ;---------------------------------------------------------------
 * BANK : Just Human
