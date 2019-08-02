@@ -2,7 +2,7 @@
 ;=====   LittleGiant2 setup                                =====
 ;=====                                                     =====
 ;===== Filename : /Users/runeflobakk/Downloads/gordius-lg2/setups/no-mans-island-lg2 =====
-;===== Created  : 23/04/2019                               =====
+;===== Created  : 02/08/2019                               =====
 ;===== Version  : 3.0                                      =====
 ;===============================================================
 
@@ -75,7 +75,7 @@ NUM_BANKS             100
 GLOBAL_SWITCHES_L     0
 GLOBAL_SWITCHES_H     0
 MIDICHANNEL 01        01 [Active]     Andromeda
-MIDICHANNEL 02        02 [Active]     Nord Electro
+MIDICHANNEL 02        02 [Active]     Nord Stage 3
 MIDICHANNEL 03        03 [Active]     Nemesis
 MIDICHANNEL 04        04 [Active]     BigSky
 MIDICHANNEL 05        05 [Active]     Channel 05
@@ -128,7 +128,7 @@ PEDALCURVE  03        005
 
 * MACRO : Afterski Setup
 01 PC    021    
-02 PC    015    
+02 PC    025    
 03 PC    002    
 +   Nemesis Delay
 04 PC    001    
@@ -141,7 +141,7 @@ PEDALCURVE  03        005
 
 * PATCH    : Flammable
 + 01 PC    006    
-+ 02 PC    006    
++ 02 PC    030    
 + 04 PC    001    
 + +   Big Sky
 + 03 PC    002    
@@ -149,7 +149,7 @@ PEDALCURVE  03        005
 ;---------------------------------------------------------------
 * PATCH    : Soldierette
 + 01 PC    024    
-+ 02 PC    014    
++ 02 PC    040    
 + 04 PC    001    
 + +   Big Sky
 + 03 PC    002    
@@ -157,21 +157,21 @@ PEDALCURVE  03        005
 ;---------------------------------------------------------------
 * PATCH    : Speed of Sound
 + 01 PC    020    
-+ 02 PC    007    
++ 02 PC    005    
 + -   Big Sky
 + 03 PC    000    
 + +   Nemesis Delay
 ;---------------------------------------------------------------
 * PATCH    : Unbearable
 + 01 PC    013    
-+ 02 PC    013    
++ 02 PC    020    
 + -   Big Sky
 + 03 PC    001    
 + -   Nemesis Delay
 ;---------------------------------------------------------------
 * PATCH    : Florence
 + 01 PC    012    
-+ 02 PC    009    
++ 02 PC    015    
 + 04 PC    000    
 + +   Big Sky
 + 03 PC    000    
@@ -187,14 +187,14 @@ PEDALCURVE  03        005
 ;---------------------------------------------------------------
 * PATCH    : Just Human
 + 01 PC    018    
-+ 02 PC    008    
++ 02 PC    055    
 + -   Big Sky
 + 03 PC    002    
 + -   Nemesis Delay
 ;---------------------------------------------------------------
 * PATCH    : Muscle Memory
 + 01 PC    026    
-+ 02 PC    011    
++ 02 PC    050    
 + 04 PC    000    
 + +   Big Sky
 + 03 PC    002    
@@ -202,7 +202,7 @@ PEDALCURVE  03        005
 ;---------------------------------------------------------------
 * PATCH    : No Pioneer
 + 01 PC    000    
-+ 02 PC    000    
++ 02 PC    045    
 + 04 PC    000    
 + +   Big Sky
 + 03 PC    002    
@@ -210,14 +210,14 @@ PEDALCURVE  03        005
 ;---------------------------------------------------------------
 * PATCH    : Avalanche
 + 01 PC    001    
-+ 02 PC    001    
++ 02 PC    035    
 + -   Big Sky
 + 03 PC    000    
 + -   Nemesis Delay
 ;---------------------------------------------------------------
 * PATCH    : Euphoria Heights
 + 01 PC    002    
-+ 02 PC    002    
++ 02 PC    060    
 + 04 PC    001    
 + +   Big Sky
 + 03 PC    003    
@@ -225,18 +225,18 @@ PEDALCURVE  03        005
 ;---------------------------------------------------------------
 * PATCH    : Reverie
 + 01 PC    003    
-+ 02 PC    003    
++ 02 PC    065    
 + -   Big Sky
 + -   Nemesis Delay
 ;---------------------------------------------------------------
 * PATCH    : My Design
 + 01 PC    004    
-+ 02 PC    004    
++ 02 PC    127    
 + -   Big Sky
 + -   Nemesis Delay
 ;---------------------------------------------------------------
 * PATCH    : Embers
-+ 02 PC    005    
++ 02 PC    127    
 + -   Big Sky
 + -   Nemesis Delay
 ;---------------------------------------------------------------
