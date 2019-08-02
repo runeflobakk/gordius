@@ -10,6 +10,7 @@
 ;=====   GLOBAL DATA                                       =====
 ;===============================================================
 
+DEFAULTEXPR 01        Nord Stage EXPR
 CONTROLLER_TYPE       LG
 SLAVECONTROLLER_TYPE  FCB
 OPERATIONMODE         Regular mode
@@ -865,6 +866,11 @@ PEDALCURVE  03        005
 ;=====   EXPRESSIONPEDAL DATA                              =====
 ;===============================================================
 
+* EXPRESSIONPEDAL : Nord Stage EXPR
++ 01 ControlChange    011
+  Range           :   000 - 127 
+  Sweep curve     :   1
+;---------------------------------------------------------------
 
 ;===============================================================
 ;=====   PRESETGROUP DATA                                  =====
