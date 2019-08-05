@@ -2,7 +2,7 @@
 ;=====   LittleGiant2 setup                                =====
 ;=====                                                     =====
 ;===== Filename : /Users/runeflobakk/Downloads/gordius-lg2/setups/no-mans-island-lg2 =====
-;===== Created  : 03/08/2019                               =====
+;===== Created  : 05/08/2019                               =====
 ;===== Version  : 3.0                                      =====
 ;===============================================================
 
@@ -876,7 +876,7 @@ PEDALCURVE  03        005
 ;=====   PRESETGROUP DATA                                  =====
 ;===============================================================
 
-* TRIGGERGROUP : Flornece Intro
+* TRIGGERGROUP : Florence Intro
 ;-------------------------------
 Scroll behavior : Linear
 Listindex reset : Reset on select
@@ -918,7 +918,7 @@ switch 05 : SB MIDI Clock @ 82
 
 DEFAULTPRESET Florence
 DERIVED FROM Base setup
-switch 02 : TG Flornece Intro
+switch 02 : TG Florence Intro
 switch 05 : SB MIDI Clock @ 148
 ;---------------------------------------------------------------
 * BANK : Hearts Astray
