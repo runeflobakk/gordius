@@ -10,6 +10,7 @@
 ;=====   GLOBAL DATA                                       =====
 ;===============================================================
 
+DEFAULTEXPR 01        Andromeda EXPR
 DEFAULTEXPR 01        Nord Stage EXPR
 CONTROLLER_TYPE       LG
 SLAVECONTROLLER_TYPE  FCB
@@ -868,6 +869,11 @@ PEDALCURVE  03        005
 
 * EXPRESSIONPEDAL : Nord Stage EXPR
 + 01 ControlChange    011
+  Range           :   000 - 127 
+  Sweep curve     :   1
+;---------------------------------------------------------------
+* EXPRESSIONPEDAL : Andromeda EXPR
++ 00 ControlChange    011
   Range           :   000 - 127 
   Sweep curve     :   1
 ;---------------------------------------------------------------
