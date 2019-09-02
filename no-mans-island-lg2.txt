@@ -2,7 +2,7 @@
 ;=====   LittleGiant2 setup                                =====
 ;=====                                                     =====
 ;===== Filename : /Users/runeflobakk/Downloads/gordius-lg2/setups/no-mans-island-lg2 =====
-;===== Created  : 02/09/2019                               =====
+;===== Created  : 08/09/2019                               =====
 ;===== Version  : 3.0                                      =====
 ;===============================================================
 
@@ -102,7 +102,7 @@ EXPRPEDAL   01 DEAD_T 002
 EXPRPEDAL   02 CONFIG 000
 EXPRPEDAL   02 DEAD_H 000
 EXPRPEDAL   02 DEAD_T 000
-EXPRPEDAL   03 CONFIG 021
+EXPRPEDAL   03 CONFIG 085
 EXPRPEDAL   03 DEAD_H 000
 EXPRPEDAL   03 DEAD_T 000
 EXPRPEDAL   04 CONFIG 000
@@ -852,12 +852,23 @@ PEDALCURVE  03        005
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
-* EFFECT   : Sustain-pedal
-+ 16 CC    064 000
-- 16 CC    064 127
 ;---------------------------------------------------------------
 * EFFECT   : Tap tempo
 + TAPTEMPO     000
+;---------------------------------------------------------------
+* EFFECT   : MiKORG Sus+Latch
++ 16 CC    099 000
++ 16 CC    098 004
++ 16 CC    006 127
++ 16 CC    064 127
+- 16 CC    064 000
+- 16 CC    099 000
+- 16 CC    098 004
+- 16 CC    006 000
+;---------------------------------------------------------------
+* EFFECT   : MiKORG Sustain
++ 16 CC    064 127
+- 16 CC    064 000
 ;---------------------------------------------------------------
 * EFFECT   : Afterski Setup
 + [M] Afterski Setup
@@ -900,7 +911,7 @@ FlorenceIntroEND
 switch 01 : ME Tap tempo
 switch 07 : SB Big Sky
 switch 08 : SB Nemesis Delay
-ext.sw.05 : ME Sustain-pedal
+ext.sw.05 : ME MiKORG Sus+Latch
 ;---------------------------------------------------------------
 * BANK : Flammable
 
