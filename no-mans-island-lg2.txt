@@ -852,6 +852,11 @@ PEDALCURVE  03        005
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
+* STOMPBOX : MIDI Clock @ 189
++ METRONOME    189
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
 ;---------------------------------------------------------------
 * EFFECT   : Tap tempo
 + TAPTEMPO     000
@@ -1015,6 +1020,11 @@ DERIVED FROM Base setup
 switch 04 : ME Afterski Setup
 switch 05 : SB MIDI Clock @ 115
 ;---------------------------------------------------------------
+* BANK : Synthwave
+
+DERIVED FROM Base setup
+switch 05 : SB MIDI Clock @ 189
+;---------------------------------------------------------------
 
 ;===============================================================
 ;=====   SONG DATA                                         =====
@@ -1135,6 +1145,7 @@ No Pioneer
 Avalanche        
 Unshielded       
 Afterski         
+Synthwave        
 ;---------------------------------------------------------------
 * BANKLIST : Verkstedet 2019
 ;-------------------------------
