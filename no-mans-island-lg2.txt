@@ -92,10 +92,6 @@ MIDICHANNEL 13        13 [Active]     Channel 13
 MIDICHANNEL 14        14 [Active]     Channel 14
 MIDICHANNEL 15        15 [Active]     Channel 15
 MIDICHANNEL 16        16 [Active]     MicroKorg
-DATAVARIABLE001       102 - BigSky toggle
-DATAVARIABLE002       000 - Off
-DATAVARIABLE003       127 - On
-DATAVARIABLE004       038 - Nemesis toggle
 EXPRPEDAL   01 CONFIG 000
 EXPRPEDAL   01 DEAD_H 002
 EXPRPEDAL   01 DEAD_T 002
@@ -141,6 +137,20 @@ PEDALCURVE  03        005
 ;---------------------------------------------------------------
 * MACRO : Spec Tempus OFF
 04 CC    022 000
+;---------------------------------------------------------------
+* MACRO : Nemesis ON
+NONBL. DELAY 001
+03 CC    038 127
+;---------------------------------------------------------------
+* MACRO : Nemesis OFF
+NONBL. DELAY 001
+03 CC    038 000
+;---------------------------------------------------------------
+* MACRO : Big Sky ON
+04 CC    102 127
+;---------------------------------------------------------------
+* MACRO : Big Sky OFF
+04 CC    102 000
 ;---------------------------------------------------------------
 
 ;===============================================================
@@ -277,14 +287,12 @@ PEDALCURVE  03        005
 + -   Nemesis Delay
 ;---------------------------------------------------------------
 * STOMPBOX : Big Sky
-+ 04 CC    128 130
-- 04 CC    128 129
++ [M] Big Sky ON
+- [M] Big Sky OFF
 ;---------------------------------------------------------------
 * STOMPBOX : Nemesis Delay
-+ NONBL. DELAY 001
-+ 03 CC    131 130
-- NONBL. DELAY 001
-- 03 CC    131 129
++ [M] Nemesis ON
+- [M] Nemesis OFF
 ;---------------------------------------------------------------
 * STOMPBOX : Specular Tempus
 + [M] Spec Tempus ON
