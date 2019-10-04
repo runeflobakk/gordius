@@ -2,7 +2,7 @@
 ;=====   LittleGiant2 setup                                =====
 ;=====                                                     =====
 ;===== Filename : /Users/runeflobakk/Downloads/gordius-lg2/setups/no-mans-island-lg2 =====
-;===== Created  : 08/09/2019                               =====
+;===== Created  : 04/10/2019                               =====
 ;===== Version  : 3.0                                      =====
 ;===============================================================
 
@@ -71,7 +71,7 @@ MIDIIN_TO_MIDIOUT     False
 MIDIIN_TO_USB         True
 MSG_TO_MIDIOUT        True
 MSG_TO_USB            False
-DEFAULT_BANKLIST      Verkstedet 2019
+DEFAULT_BANKLIST      No Man's Island
 TIPHEEL DELAY         20
 NUM_BANKS             100
 GLOBAL_SWITCHES_L     0
