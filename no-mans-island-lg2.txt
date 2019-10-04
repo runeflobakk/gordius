@@ -79,7 +79,7 @@ GLOBAL_SWITCHES_H     0
 MIDICHANNEL 01        01 [Active]     Andromeda
 MIDICHANNEL 02        02 [Active]     Nord Stage 3
 MIDICHANNEL 03        03 [Active]     Nemesis
-MIDICHANNEL 04        04 [Active]     BigSky
+MIDICHANNEL 04        04 [Active]     SpecTempus
 MIDICHANNEL 05        05 [Active]     Channel 05
 MIDICHANNEL 06        06 [Active]     Channel 06
 MIDICHANNEL 07        07 [Active]     Channel 07
@@ -133,8 +133,8 @@ PEDALCURVE  03        005
 02 PC    025    
 03 PC    002    
 +   Nemesis Delay
-04 PC    001    
-+   Big Sky
+04 PC    017    
++   Specular Tempus
 ;---------------------------------------------------------------
 * MACRO : Spec Tempus ON
 04 CC    022 127
@@ -150,108 +150,108 @@ PEDALCURVE  03        005
 * PATCH    : Flammable
 + 01 PC    006    
 + 02 PC    030    
-+ 04 PC    001    
-+ +   Big Sky
++ 04 PC    017    
++ +   Specular Tempus
 + 03 PC    002    
 + +   Nemesis Delay
 ;---------------------------------------------------------------
 * PATCH    : Soldierette
 + 01 PC    024    
 + 02 PC    040    
-+ 04 PC    001    
-+ +   Big Sky
++ 04 PC    017    
++ +   Specular Tempus
 + 03 PC    002    
 + +   Nemesis Delay
 ;---------------------------------------------------------------
 * PATCH    : Speed of Sound
 + 01 PC    020    
 + 02 PC    005    
-+ -   Big Sky
++ -   Specular Tempus
 + 03 PC    000    
 + +   Nemesis Delay
 ;---------------------------------------------------------------
 * PATCH    : Unbearable
 + 01 PC    013    
 + 02 PC    020    
-+ -   Big Sky
++ -   Specular Tempus
 + 03 PC    001    
 + -   Nemesis Delay
 ;---------------------------------------------------------------
 * PATCH    : Florence
 + 01 PC    012    
 + 02 PC    015    
-+ 04 PC    000    
-+ +   Big Sky
++ 04 PC    016    
++ +   Specular Tempus
 + 03 PC    000    
 + +   Nemesis Delay
 ;---------------------------------------------------------------
 * PATCH    : Hearts Astray
 + 01 PC    023    
 + 02 PC    010    
-+ 04 PC    000    
-+ +   Big Sky
++ 04 PC    016    
++ +   Specular Tempus
 + 03 PC    002    
 + +   Nemesis Delay
 ;---------------------------------------------------------------
 * PATCH    : Just Human
 + 01 PC    018    
 + 02 PC    055    
-+ -   Big Sky
++ -   Specular Tempus
 + 03 PC    002    
 + -   Nemesis Delay
 ;---------------------------------------------------------------
 * PATCH    : Muscle Memory
 + 01 PC    026    
 + 02 PC    050    
-+ 04 PC    000    
-+ +   Big Sky
++ 04 PC    016    
++ +   Specular Tempus
 + 03 PC    002    
 + +   Nemesis Delay
 ;---------------------------------------------------------------
 * PATCH    : No Pioneer
 + 01 PC    000    
 + 02 PC    045    
-+ 04 PC    000    
-+ +   Big Sky
++ 04 PC    016    
++ +   Specular Tempus
 + 03 PC    002    
 + +   Nemesis Delay
 ;---------------------------------------------------------------
 * PATCH    : Avalanche
 + 01 PC    001    
 + 02 PC    035    
-+ -   Big Sky
++ -   Specular Tempus
 + 03 PC    000    
 + -   Nemesis Delay
 ;---------------------------------------------------------------
 * PATCH    : Euphoria Heights
 + 01 PC    002    
 + 02 PC    060    
-+ 04 PC    001    
-+ +   Big Sky
++ 04 PC    017    
++ +   Specular Tempus
 + 03 PC    003    
 + +   Nemesis Delay
 ;---------------------------------------------------------------
 * PATCH    : Reverie
 + 01 PC    003    
 + 02 PC    065    
-+ -   Big Sky
++ -   Specular Tempus
 + -   Nemesis Delay
 ;---------------------------------------------------------------
 * PATCH    : My Design
 + 01 PC    004    
 + 02 PC    127    
-+ -   Big Sky
++ -   Specular Tempus
 + -   Nemesis Delay
 ;---------------------------------------------------------------
 * PATCH    : Embers
 + 02 PC    127    
-+ -   Big Sky
++ -   Specular Tempus
 + -   Nemesis Delay
 ;---------------------------------------------------------------
 * PATCH    : Unshielded
 + 01 PC    007    
-+ 04 PC    001    
-+ +   Big Sky
++ 04 PC    017    
++ +   Specular Tempus
 + 03 PC    002    
 + +   Nemesis Delay
 ;---------------------------------------------------------------
@@ -273,7 +273,7 @@ PEDALCURVE  03        005
 * TRIGGER  : FlorenceIntroEND
 + 01 NOTE- 037 127
 + 05 NOTE- 038 127
-+ -   Big Sky
++ -   Specular Tempus
 + -   Nemesis Delay
 ;---------------------------------------------------------------
 * STOMPBOX : Big Sky
@@ -924,7 +924,7 @@ FlorenceIntroEND
 * BANK : Base setup
 
 switch 01 : ME Tap tempo
-switch 07 : SB Big Sky
+switch 07 : SB Specular Tempus
 switch 08 : SB Nemesis Delay
 ext.sw.05 : ME MiKORG Sus+Latch
 ;---------------------------------------------------------------
@@ -1183,6 +1183,5 @@ My Design
 ;===============================================================
 ;=====   SETLIST DATA                                      =====
 ;===============================================================
-
 
 
