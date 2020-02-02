@@ -277,6 +277,10 @@ NONBL. DELAY 001
 * PATCH    : Run Tempo
 + +   MIDI Clock @ 115
 ;---------------------------------------------------------------
+* PATCH    : Synthwave
++ 09 PC    000    
++ +   ZOIA
+;---------------------------------------------------------------
 * TRIGGER  : Florence SubBass
 + 01 NOTE+ 037 127
 ;---------------------------------------------------------------
@@ -1059,6 +1063,7 @@ switch 05 : SB MIDI Clock @ 115
 ;---------------------------------------------------------------
 * BANK : Synthwave
 
+DEFAULTPRESET Synthwave
 DERIVED FROM Base setup
 switch 05 : SB MIDI Clock @ 189
 ext.sw.05 : ME MiKorg Arp Gate
