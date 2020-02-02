@@ -124,7 +124,7 @@ PEDALCURVE  03        005
 ;=====   MACROS                                            =====
 ;===============================================================
 
-* MACRO : Afterski Setup
+* MACRO : Run Setup
 01 PC    021    
 02 PC    025    
 03 PC    002    
@@ -265,10 +265,10 @@ NONBL. DELAY 001
 + 03 PC    002    
 + +   Nemesis Delay
 ;---------------------------------------------------------------
-* PATCH    : Afterski
-+ [M] Afterski Setup
+* PATCH    : Run
++ [M] Run Setup
 ;---------------------------------------------------------------
-* PATCH    : Afterski Tempo
+* PATCH    : Run Tempo
 + +   MIDI Clock @ 115
 ;---------------------------------------------------------------
 * TRIGGER  : Florence SubBass
@@ -893,8 +893,8 @@ NONBL. DELAY 001
 + 16 CC    064 127
 - 16 CC    064 000
 ;---------------------------------------------------------------
-* EFFECT   : Afterski Setup
-+ [M] Afterski Setup
+* EFFECT   : Run Setup
++ [M] Run Setup
 ;---------------------------------------------------------------
 * EFFECT   : MiKorg Arp Gate
 + 16 CC    099 000
@@ -1039,11 +1039,11 @@ DERIVED FROM Base setup
 switch 02 : SB Note C4 + 80 BPM
 switch 05 : SB MIDI Clock @ 80
 ;---------------------------------------------------------------
-* BANK : Afterski
+* BANK : Run
 
-DEFAULTPRESET Afterski Tempo
+DEFAULTPRESET Run Tempo
 DERIVED FROM Base setup
-switch 04 : ME Afterski Setup
+switch 04 : ME Run Setup
 switch 05 : SB MIDI Clock @ 115
 ;---------------------------------------------------------------
 * BANK : Synthwave
@@ -1171,7 +1171,7 @@ Muscle Memory
 No Pioneer       
 Avalanche        
 Unshielded       
-Afterski         
+Run              
 Synthwave        
 ;---------------------------------------------------------------
 * BANKLIST : Verkstedet 2019
@@ -1181,7 +1181,7 @@ Unshielded
 Speed of Sound   
 Florence         
 Unbearable       
-Afterski         
+Run              
 Flammable        
 Avalanche        
 Soldierette      
