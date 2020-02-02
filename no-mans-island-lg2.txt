@@ -84,7 +84,7 @@ MIDICHANNEL 05        05 [Active]     Channel 05
 MIDICHANNEL 06        06 [Active]     Channel 06
 MIDICHANNEL 07        07 [Active]     Channel 07
 MIDICHANNEL 08        08 [Active]     Channel 08
-MIDICHANNEL 09        09 [Active]     Channel 09
+MIDICHANNEL 09        09 [Active]     ZOIA
 MIDICHANNEL 10        10 [Active]     Channel 10
 MIDICHANNEL 11        11 [Active]     Channel 11
 MIDICHANNEL 12        12 [Active]     Channel 12
@@ -151,6 +151,12 @@ NONBL. DELAY 001
 ;---------------------------------------------------------------
 * MACRO : Big Sky OFF
 04 CC    102 000
+;---------------------------------------------------------------
+* MACRO : ZOIA ON
+09 CC    060 127
+;---------------------------------------------------------------
+* MACRO : ZOIA OFF
+09 CC    060 000
 ;---------------------------------------------------------------
 
 ;===============================================================
@@ -297,6 +303,10 @@ NONBL. DELAY 001
 * STOMPBOX : Specular Tempus
 + [M] Spec Tempus ON
 - [M] Spec Tempus OFF
+;---------------------------------------------------------------
+* STOMPBOX : ZOIA
++ [M] ZOIA ON
+- [M] ZOIA OFF
 ;---------------------------------------------------------------
 * STOMPBOX : Sustain
 + 01 CC    064 127
@@ -940,6 +950,7 @@ FlorenceIntroEND
 * BANK : Base setup
 
 switch 01 : ME Tap tempo
+switch 06 : SB ZOIA
 switch 07 : SB Specular Tempus
 switch 08 : SB Nemesis Delay
 ext.sw.05 : ME MiKORG Sus+Latch
