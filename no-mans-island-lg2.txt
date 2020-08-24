@@ -78,8 +78,8 @@ GLOBAL_SWITCHES_L     0
 GLOBAL_SWITCHES_H     0
 MIDICHANNEL 01        01 [Active]     Andromeda
 MIDICHANNEL 02        02 [Active]     Nord Stage 3
-MIDICHANNEL 03        03 [Active]     Nemesis
-MIDICHANNEL 04        04 [Active]     SpecTempus
+MIDICHANNEL 03        03 [Active]     Channel 03
+MIDICHANNEL 04        04 [Active]     Channel 04
 MIDICHANNEL 05        05 [Active]     Channel 05
 MIDICHANNEL 06        06 [Active]     Channel 06
 MIDICHANNEL 07        07 [Active]     Channel 07
@@ -127,30 +127,8 @@ PEDALCURVE  03        005
 * MACRO : Run Setup
 01 PC    021    
 02 PC    025    
-03 PC    002    
-+   Nemesis Delay
-04 PC    017    
-+   Specular Tempus
-;---------------------------------------------------------------
-* MACRO : Spec Tempus ON
-04 CC    022 127
-;---------------------------------------------------------------
-* MACRO : Spec Tempus OFF
-04 CC    022 000
-;---------------------------------------------------------------
-* MACRO : Nemesis ON
-NONBL. DELAY 001
-03 CC    038 127
-;---------------------------------------------------------------
-* MACRO : Nemesis OFF
-NONBL. DELAY 001
-03 CC    038 000
-;---------------------------------------------------------------
-* MACRO : Big Sky ON
-04 CC    102 127
-;---------------------------------------------------------------
-* MACRO : Big Sky OFF
-04 CC    102 000
+09 PC    001    
++   ZOIA
 ;---------------------------------------------------------------
 * MACRO : ZOIA ON
 09 CC    060 127
@@ -166,110 +144,87 @@ NONBL. DELAY 001
 * PATCH    : Flammable
 + 01 PC    006    
 + 02 PC    030    
-+ 04 PC    017    
-+ +   Specular Tempus
-+ 03 PC    002    
-+ +   Nemesis Delay
++ 09 PC    002    
++ +   ZOIA
 ;---------------------------------------------------------------
 * PATCH    : Soldierette
 + 01 PC    024    
 + 02 PC    040    
-+ 04 PC    017    
-+ +   Specular Tempus
-+ 03 PC    002    
-+ +   Nemesis Delay
++ 09 PC    002    
++ +   ZOIA
 ;---------------------------------------------------------------
 * PATCH    : Speed of Sound
 + 01 PC    020    
 + 02 PC    005    
-+ -   Specular Tempus
-+ 03 PC    000    
-+ +   Nemesis Delay
++ 09 PC    002    
++ +   ZOIA
 ;---------------------------------------------------------------
 * PATCH    : Unbearable
 + 01 PC    013    
 + 02 PC    020    
-+ -   Specular Tempus
-+ 03 PC    001    
-+ -   Nemesis Delay
++ 09 PC    002    
++ -   ZOIA
 ;---------------------------------------------------------------
 * PATCH    : Florence
 + 01 PC    012    
 + 02 PC    015    
-+ 04 PC    016    
-+ +   Specular Tempus
-+ 03 PC    000    
-+ +   Nemesis Delay
++ 09 PC    002    
++ +   ZOIA
 ;---------------------------------------------------------------
 * PATCH    : Hearts Astray
 + 01 PC    023    
 + 02 PC    010    
-+ 04 PC    016    
-+ +   Specular Tempus
-+ 03 PC    002    
-+ +   Nemesis Delay
++ 09 PC    004    
++ +   ZOIA
 ;---------------------------------------------------------------
 * PATCH    : Just Human
 + 01 PC    018    
 + 02 PC    055    
-+ -   Specular Tempus
-+ 03 PC    002    
-+ -   Nemesis Delay
++ 09 PC    002    
++ -   ZOIA
 ;---------------------------------------------------------------
 * PATCH    : Muscle Memory
 + 01 PC    026    
 + 02 PC    050    
-+ 04 PC    016    
-+ +   Specular Tempus
-+ 03 PC    002    
-+ +   Nemesis Delay
++ 09 PC    004    
++ +   ZOIA
 ;---------------------------------------------------------------
 * PATCH    : No Pioneer
 + 01 PC    000    
 + 02 PC    045    
-+ 04 PC    016    
-+ +   Specular Tempus
-+ 03 PC    002    
-+ +   Nemesis Delay
++ 09 PC    002    
++ +   ZOIA
 ;---------------------------------------------------------------
 * PATCH    : Avalanche
 + 01 PC    001    
 + 02 PC    035    
-+ -   Specular Tempus
-+ 03 PC    000    
-+ -   Nemesis Delay
++ 09 PC    002    
++ -   ZOIA
 ;---------------------------------------------------------------
 * PATCH    : Euphoria Heights
 + 01 PC    002    
 + 02 PC    060    
-+ 04 PC    017    
-+ +   Specular Tempus
-+ 03 PC    003    
-+ +   Nemesis Delay
++ 09 PC    002    
++ +   ZOIA
 ;---------------------------------------------------------------
 * PATCH    : Reverie
 + 01 PC    003    
 + 02 PC    065    
-+ -   Specular Tempus
-+ -   Nemesis Delay
++ -   ZOIA
 ;---------------------------------------------------------------
 * PATCH    : My Design
 + 01 PC    004    
 + 02 PC    127    
-+ -   Specular Tempus
-+ -   Nemesis Delay
++ -   ZOIA
 ;---------------------------------------------------------------
 * PATCH    : Embers
 + 02 PC    127    
-+ -   Specular Tempus
-+ -   Nemesis Delay
++ -   ZOIA
 ;---------------------------------------------------------------
 * PATCH    : LayDownYrShield
 + 01 PC    007    
-+ 04 PC    017    
-+ +   Specular Tempus
-+ 03 PC    002    
-+ +   Nemesis Delay
++ 09 PC    002    
++ +   ZOIA
 ;---------------------------------------------------------------
 * PATCH    : Run
 + [M] Run Setup
@@ -278,7 +233,7 @@ NONBL. DELAY 001
 + +   MIDI Clock @ 115
 ;---------------------------------------------------------------
 * PATCH    : Synthwave
-+ 09 PC    000    
++ 09 PC    002    
 + +   ZOIA
 ;---------------------------------------------------------------
 * PATCH    : Not Foo Fighters
@@ -297,20 +252,7 @@ NONBL. DELAY 001
 * TRIGGER  : FlorenceIntroEND
 + 01 NOTE- 037 127
 + 05 NOTE- 038 127
-+ -   Specular Tempus
-+ -   Nemesis Delay
-;---------------------------------------------------------------
-* STOMPBOX : Big Sky
-+ [M] Big Sky ON
-- [M] Big Sky OFF
-;---------------------------------------------------------------
-* STOMPBOX : Nemesis Delay
-+ [M] Nemesis ON
-- [M] Nemesis OFF
-;---------------------------------------------------------------
-* STOMPBOX : Specular Tempus
-+ [M] Spec Tempus ON
-- [M] Spec Tempus OFF
++ -   ZOIA
 ;---------------------------------------------------------------
 * STOMPBOX : ZOIA
 + [M] ZOIA ON
@@ -958,9 +900,7 @@ FlorenceIntroEND
 * BANK : Base setup
 
 switch 01 : ME Tap tempo
-switch 06 : SB ZOIA
-switch 07 : SB Specular Tempus
-switch 08 : SB Nemesis Delay
+switch 08 : SB ZOIA
 ext.sw.05 : ME MiKORG Sus+Latch
 ;---------------------------------------------------------------
 * BANK : Flammable
