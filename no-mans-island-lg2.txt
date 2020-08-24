@@ -281,6 +281,10 @@ NONBL. DELAY 001
 + 09 PC    000    
 + +   ZOIA
 ;---------------------------------------------------------------
+* PATCH    : Not Foo Fighters
++ 09 PC    002    
++ +   ZOIA
+;---------------------------------------------------------------
 * TRIGGER  : Florence SubBass
 + 01 NOTE+ 037 127
 ;---------------------------------------------------------------
@@ -1068,6 +1072,12 @@ DERIVED FROM Base setup
 switch 05 : SB MIDI Clock @ 189
 ext.sw.05 : ME MiKorg Arp Gate
 ;---------------------------------------------------------------
+* BANK : Not Foo Fighters
+
+DEFAULTPRESET Not Foo Fighters
+DERIVED FROM Base setup
+switch 05 : SB MIDI Clock @ 130
+;---------------------------------------------------------------
 
 ;===============================================================
 ;=====   SONG DATA                                         =====
@@ -1189,6 +1199,7 @@ Avalanche
 LayDownYrShield  
 Run              
 Synthwave        
+Not Foo Fighters 
 ;---------------------------------------------------------------
 * BANKLIST : Verkstedet 2019
 ;-------------------------------
