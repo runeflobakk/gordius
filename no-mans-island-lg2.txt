@@ -2,7 +2,7 @@
 ;=====   LittleGiant2 setup                                =====
 ;=====                                                     =====
 ;===== Filename : /Users/runeflobakk/Downloads/gordius-lg2/setups/no-mans-island-lg2 =====
-;===== Created  : 02/02/2020                               =====
+;===== Created  : 24/08/2020                               =====
 ;===== Version  : 3.0                                      =====
 ;===============================================================
 
@@ -264,7 +264,7 @@ NONBL. DELAY 001
 + -   Specular Tempus
 + -   Nemesis Delay
 ;---------------------------------------------------------------
-* PATCH    : Unshielded
+* PATCH    : LayDownYrShield
 + 01 PC    007    
 + 04 PC    017    
 + +   Specular Tempus
@@ -1040,9 +1040,9 @@ DEFAULTPRESET Embers
 DERIVED FROM Base setup
 switch 05 : SB MIDI Clock @ 135
 ;---------------------------------------------------------------
-* BANK : Unshielded
+* BANK : LayDownYrShield
 
-DEFAULTPRESET Unshielded
+DEFAULTPRESET LayDownYrShield
 DERIVED FROM Base setup
 switch 02 : SB Sustain
 switch 05 : SB MIDI Clock @ 124
@@ -1163,8 +1163,8 @@ ext.sw.05 : ME MiKorg Arp Gate
   PRESETLIST 
 [ no lyrics ]
 ;---------------------------------------------------------------
-* SONG : Unshielded
-  USES BANK Unshielded
+* SONG : LayDownYrShield
+  USES BANK LayDownYrShield
   DEFAULT PRESET 
   PRESETLIST 
 [ no lyrics ]
@@ -1186,14 +1186,14 @@ Just Human
 Muscle Memory    
 No Pioneer       
 Avalanche        
-Unshielded       
+LayDownYrShield  
 Run              
 Synthwave        
 ;---------------------------------------------------------------
 * BANKLIST : Verkstedet 2019
 ;-------------------------------
 Hearts Astray    
-Unshielded       
+LayDownYrShield  
 Speed of Sound   
 Florence         
 Unbearable       
