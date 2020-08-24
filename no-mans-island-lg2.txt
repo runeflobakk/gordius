@@ -25,7 +25,7 @@ MIDISTART_NUM_TAPS    1
 MIDICONTROL_CHANNEL   0
 KPA CONTROL_CHANNEL   0
 LED_DIMMING           0
-METRONOME_LEDMASK_L   1
+METRONOME_LEDMASK_L   16
 METRONOME_LEDMASK_H   64
 USE_METRONOME         False
 USE_DIRECT_BANK_1     False
@@ -899,7 +899,7 @@ FlorenceIntroEND
 
 * BANK : Base setup
 
-switch 01 : ME Tap tempo
+switch 05 : ME Tap tempo
 switch 08 : SB ZOIA
 ext.sw.05 : ME MiKORG Sus+Latch
 ;---------------------------------------------------------------
@@ -907,116 +907,116 @@ ext.sw.05 : ME MiKORG Sus+Latch
 
 DEFAULTPRESET Flammable
 DERIVED FROM Base setup
-switch 05 : SB MIDI Clock @ 141
+switch 01 : SB MIDI Clock @ 141
 ;---------------------------------------------------------------
 * BANK : Soldierette
 
 DEFAULTPRESET Soldierette
 DERIVED FROM Base setup
-switch 05 : SB MIDI Clock @ 111
+switch 01 : SB MIDI Clock @ 111
 ;---------------------------------------------------------------
 * BANK : Unbearable
 
 DEFAULTPRESET Unbearable
 DERIVED FROM Base setup
-switch 05 : SB MIDI Clock @ 82
+switch 01 : SB MIDI Clock @ 82
 ;---------------------------------------------------------------
 * BANK : Florence
 
 DEFAULTPRESET Florence
 DERIVED FROM Base setup
+switch 01 : SB MIDI Clock @ 148
 switch 02 : TG Florence Intro
-switch 05 : SB MIDI Clock @ 148
 ;---------------------------------------------------------------
 * BANK : Hearts Astray
 
 DEFAULTPRESET Hearts Astray
 DERIVED FROM Base setup
+switch 01 : SB MIDI Clock @ 104
 switch 02 : SB HeartsAstray Arp
-switch 05 : SB MIDI Clock @ 104
 ;---------------------------------------------------------------
 * BANK : Just Human
 
 DEFAULTPRESET Just Human
 DERIVED FROM Base setup
-switch 05 : SB MIDI Clock @ 149
+switch 01 : SB MIDI Clock @ 149
 ;---------------------------------------------------------------
 * BANK : Muscle Memory
 
 DEFAULTPRESET Muscle Memory
 DERIVED FROM Base setup
-switch 05 : SB MIDI Clock @ 125
+switch 01 : SB MIDI Clock @ 125
 ;---------------------------------------------------------------
 * BANK : No Pioneer
 
 DEFAULTPRESET No Pioneer
 DERIVED FROM Base setup
+switch 01 : SB MIDI Clock @ 147
 switch 02 : SB Note C4
-switch 05 : SB MIDI Clock @ 147
 ;---------------------------------------------------------------
 * BANK : Avalanche
 
 DEFAULTPRESET Avalanche
 DERIVED FROM Base setup
-switch 05 : SB MIDI Clock @ 98
+switch 01 : SB MIDI Clock @ 98
 ;---------------------------------------------------------------
 * BANK : Euphoria Heights
 
 DEFAULTPRESET Euphoria Heights
 DERIVED FROM Base setup
-switch 05 : SB MIDI Clock @ 135
+switch 01 : SB MIDI Clock @ 135
 ;---------------------------------------------------------------
 * BANK : Reverie
 
 DEFAULTPRESET Reverie
 DERIVED FROM Base setup
-switch 05 : SB MIDI Clock @ 87
+switch 01 : SB MIDI Clock @ 87
 ;---------------------------------------------------------------
 * BANK : My Design
 
 DEFAULTPRESET My Design
 DERIVED FROM Base setup
-switch 05 : SB MIDI Clock @ 132
+switch 01 : SB MIDI Clock @ 132
 ;---------------------------------------------------------------
 * BANK : Embers
 
 DEFAULTPRESET Embers
 DERIVED FROM Base setup
-switch 05 : SB MIDI Clock @ 135
+switch 01 : SB MIDI Clock @ 135
 ;---------------------------------------------------------------
 * BANK : LayDownYrShield
 
 DEFAULTPRESET LayDownYrShield
 DERIVED FROM Base setup
+switch 01 : SB MIDI Clock @ 124
 switch 02 : SB Sustain
-switch 05 : SB MIDI Clock @ 124
 ;---------------------------------------------------------------
 * BANK : Speed of Sound
 
 DEFAULTPRESET Speed of Sound
 DERIVED FROM Base setup
+switch 01 : SB MIDI Clock @ 80
 switch 02 : SB Note C4 + 80 BPM
-switch 05 : SB MIDI Clock @ 80
 ;---------------------------------------------------------------
 * BANK : Run
 
 DEFAULTPRESET Run Tempo
 DERIVED FROM Base setup
+switch 01 : SB MIDI Clock @ 115
 switch 04 : ME Run Setup
-switch 05 : SB MIDI Clock @ 115
 ;---------------------------------------------------------------
 * BANK : Synthwave
 
 DEFAULTPRESET Synthwave
 DERIVED FROM Base setup
-switch 05 : SB MIDI Clock @ 189
+switch 01 : SB MIDI Clock @ 189
 ext.sw.05 : ME MiKorg Arp Gate
 ;---------------------------------------------------------------
 * BANK : Not Foo Fighters
 
 DEFAULTPRESET Not Foo Fighters
 DERIVED FROM Base setup
-switch 05 : SB MIDI Clock @ 130
+switch 01 : SB MIDI Clock @ 130
 ;---------------------------------------------------------------
 
 ;===============================================================
