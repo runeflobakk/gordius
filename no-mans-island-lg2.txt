@@ -136,6 +136,12 @@ PEDALCURVE  03        005
 * MACRO : ZOIA OFF
 09 CC    060 000
 ;---------------------------------------------------------------
+* MACRO : Switch Bypass
+14 PC    003    
+;---------------------------------------------------------------
+* MACRO : Switch Mono Send
+14 PC    002    
+;---------------------------------------------------------------
 
 ;===============================================================
 ;=====   PRESET DATA                                       =====
@@ -268,7 +274,13 @@ PEDALCURVE  03        005
 ;---------------------------------------------------------------
 * STOMPBOX : ZOIA
 + [M] ZOIA ON
++ +   Switch Mono Send
 - [M] ZOIA OFF
+- -   Switch Mono Send
+;---------------------------------------------------------------
+* STOMPBOX : Switch Mono Send
++ [M] Switch Mono Send
+- [M] Switch Bypass
 ;---------------------------------------------------------------
 * STOMPBOX : Sustain
 + 01 CC    064 127
@@ -912,6 +924,7 @@ FlorenceIntroEND
 * BANK : Base setup
 
 switch 05 : ME Tap tempo
+switch 07 : SB Switch Mono Send
 switch 08 : SB ZOIA
 ext.sw.05 : ME MiKORG Sus+Latch
 ;---------------------------------------------------------------
