@@ -50,7 +50,7 @@ ENABLE_EXPRDISPLAY    True
 DELAYED_EXPRDISPLAY   False
 DISPLAY_PRESETNAME    True
 DISPLAY_STOMPBOXNAMES False
-SONGS_ARE_BANKS       True
+SONGS_ARE_BANKS       False
 BANKPRESETDISPLAY     False
 DIRBANKPRESETDISPLAY  False
 DISABLE_MIDI_OUT_LED  False
@@ -1065,102 +1065,6 @@ switch 01 : SB MIDI Clock @ 110
 ;=====   SONG DATA                                         =====
 ;===============================================================
 
-* SONG : Flammable
-  USES BANK Flammable
-  DEFAULT PRESET 
-  PRESETLIST 
-[ no lyrics ]
-;---------------------------------------------------------------
-* SONG : Soldierette
-  USES BANK Soldierette
-  DEFAULT PRESET 
-  PRESETLIST 
-[ no lyrics ]
-;---------------------------------------------------------------
-* SONG : Speed of Sound
-  USES BANK Speed of Sound
-  DEFAULT PRESET 
-  PRESETLIST 
-[ no lyrics ]
-;---------------------------------------------------------------
-* SONG : Base setup
-  USES BANK Base setup
-  DEFAULT PRESET 
-  PRESETLIST 
-[ no lyrics ]
-;---------------------------------------------------------------
-* SONG : Unbearable
-  USES BANK Unbearable
-  DEFAULT PRESET 
-  PRESETLIST 
-[ no lyrics ]
-;---------------------------------------------------------------
-* SONG : Florence
-  USES BANK Florence
-  DEFAULT PRESET 
-  PRESETLIST 
-[ no lyrics ]
-;---------------------------------------------------------------
-* SONG : Hearts Astray
-  USES BANK Hearts Astray
-  DEFAULT PRESET 
-  PRESETLIST 
-[ no lyrics ]
-;---------------------------------------------------------------
-* SONG : Just Human
-  USES BANK Just Human
-  DEFAULT PRESET 
-  PRESETLIST 
-[ no lyrics ]
-;---------------------------------------------------------------
-* SONG : Muscle Memory
-  USES BANK Muscle Memory
-  DEFAULT PRESET 
-  PRESETLIST 
-[ no lyrics ]
-;---------------------------------------------------------------
-* SONG : No Pioneer
-  USES BANK No Pioneer
-  DEFAULT PRESET 
-  PRESETLIST 
-[ no lyrics ]
-;---------------------------------------------------------------
-* SONG : Avalanche
-  USES BANK Avalanche
-  DEFAULT PRESET 
-  PRESETLIST 
-[ no lyrics ]
-;---------------------------------------------------------------
-* SONG : Euphoria Heights
-  USES BANK Euphoria Heights
-  DEFAULT PRESET 
-  PRESETLIST 
-[ no lyrics ]
-;---------------------------------------------------------------
-* SONG : Reverie
-  USES BANK Reverie
-  DEFAULT PRESET 
-  PRESETLIST 
-[ no lyrics ]
-;---------------------------------------------------------------
-* SONG : My Design
-  USES BANK My Design
-  DEFAULT PRESET 
-  PRESETLIST 
-[ no lyrics ]
-;---------------------------------------------------------------
-* SONG : Embers
-  USES BANK Embers
-  DEFAULT PRESET 
-  PRESETLIST 
-[ no lyrics ]
-;---------------------------------------------------------------
-* SONG : LayDownYrShield
-  USES BANK LayDownYrShield
-  DEFAULT PRESET 
-  PRESETLIST 
-[ no lyrics ]
-;---------------------------------------------------------------
 
 ;===============================================================
 ;=====   BANKLIST DATA                                     =====
