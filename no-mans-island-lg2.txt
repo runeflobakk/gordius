@@ -1124,23 +1124,6 @@ switch 01 : SB MIDI Clock @ 130
 ;=====   BANKLIST DATA                                     =====
 ;===============================================================
 
-* BANKLIST : No Man's Island
-;-------------------------------
-Flammable        
-Hearts Astray    
-Soldierette      
-Unbearable       
-Speed of Sound   
-Florence         
-Just Human       
-Muscle Memory    
-No Pioneer       
-Avalanche        
-LayDownYrShield  
-Run              
-Synthwave        
-Not Foo Fighters 
-;---------------------------------------------------------------
 * BANKLIST : Verkstedet 2019
 ;-------------------------------
 Hearts Astray    
@@ -1162,6 +1145,24 @@ Reverie
 Euphoria Heights 
 Embers           
 My Design        
+;---------------------------------------------------------------
+* BANKLIST : No Man's Island
+;-------------------------------
+Flammable        
+Hearts Astray    
+Soldierette      
+Unbearable       
+Speed of Sound   
+Florence         
+Just Human       
+Muscle Memory    
+No Pioneer       
+Avalanche        
+LayDownYrShield  
+Run              
+Synthwave        
+Not Foo Fighters 
+Euphoria Heights 
 ;---------------------------------------------------------------
 
 ;===============================================================
