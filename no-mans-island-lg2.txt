@@ -240,6 +240,18 @@ PEDALCURVE  03        005
 + 09 PC    002    
 + +   ZOIA
 ;---------------------------------------------------------------
+* PATCH    : Second Nature
++ 01 PC    033    
++ 02 PC    080    
++ 09 PC    002    
++ +   ZOIA
+;---------------------------------------------------------------
+* PATCH    : Not Being Modest
++ 01 PC    035    
++ +   ZOIA
+;---------------------------------------------------------------
+* PATCH    : Ole 2021
+;---------------------------------------------------------------
 * TRIGGER  : Florence SubBass
 + 01 NOTE+ 037 127
 ;---------------------------------------------------------------
@@ -1018,6 +1030,23 @@ DEFAULTPRESET Not Foo Fighters
 DERIVED FROM Base setup
 switch 01 : SB MIDI Clock @ 130
 ;---------------------------------------------------------------
+* BANK : Second Nature
+
+DEFAULTPRESET Second Nature
+DERIVED FROM Base setup
+switch 01 : SB MIDI Clock @ 128
+;---------------------------------------------------------------
+* BANK : Not Being Modest
+
+DEFAULTPRESET Not Being Modest
+DERIVED FROM Base setup
+switch 01 : SB MIDI Clock @ 120
+;---------------------------------------------------------------
+* BANK : Ole 2021
+
+DERIVED FROM Base setup
+switch 01 : SB MIDI Clock @ 110
+;---------------------------------------------------------------
 
 ;===============================================================
 ;=====   SONG DATA                                         =====
@@ -1162,7 +1191,10 @@ LayDownYrShield
 Run              
 Synthwave        
 Not Foo Fighters 
+Second Nature    
 Euphoria Heights 
+Ole 2021         
+Not Being Modest 
 ;---------------------------------------------------------------
 
 ;===============================================================
