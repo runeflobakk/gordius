@@ -1,8 +1,8 @@
 ;===============================================================
 ;=====   LittleGiant2 setup                                =====
 ;=====                                                     =====
-;===== Filename : /Users/runeflobakk/Downloads/gordius-lg2/setups/no-mans-island-lg2 =====
-;===== Created  : 24/08/2020                               =====
+;===== Filename : /Users/rune/Documents/gordius-lg2/gordius/no-mans-island-lg2 =====
+;===== Created  : 20/09/2021                               =====
 ;===== Version  : 3.0                                      =====
 ;===============================================================
 
@@ -198,8 +198,8 @@ PEDALCURVE  03        005
 * PATCH    : Avalanche
 + 01 PC    001    
 + 02 PC    035    
-+ 09 PC    002    
-+ -   ZOIA
++ 09 PC    005    
++ +   ZOIA
 ;---------------------------------------------------------------
 * PATCH    : Euphoria Heights
 + 01 PC    002    
