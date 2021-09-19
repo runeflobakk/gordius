@@ -89,7 +89,7 @@ MIDICHANNEL 10        10 [Active]     Channel 10
 MIDICHANNEL 11        11 [Active]     Channel 11
 MIDICHANNEL 12        12 [Active]     Channel 12
 MIDICHANNEL 13        13 [Active]     Channel 13
-MIDICHANNEL 14        14 [Active]     Channel 14
+MIDICHANNEL 14        14 [Active]     Switchblade
 MIDICHANNEL 15        15 [Active]     Channel 15
 MIDICHANNEL 16        16 [Active]     MicroKorg
 EXPRPEDAL   01 CONFIG 000
