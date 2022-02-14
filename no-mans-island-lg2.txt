@@ -2,7 +2,7 @@
 ;=====   LittleGiant2 setup                                =====
 ;=====                                                     =====
 ;===== Filename : /Users/rune/Documents/gordius-lg2/gordius/no-mans-island-lg2 =====
-;===== Created  : 20/09/2021                               =====
+;===== Created  : 14/02/2022                               =====
 ;===== Version  : 3.0                                      =====
 ;===============================================================
 
@@ -254,6 +254,7 @@ PEDALCURVE  03        005
 ;---------------------------------------------------------------
 * PATCH    : Not Being Modest
 + 01 PC    035    
++ 09 PC    003    
 + +   ZOIA
 ;---------------------------------------------------------------
 * PATCH    : Ole 2021
@@ -1053,7 +1054,7 @@ switch 01 : SB MIDI Clock @ 128
 
 DEFAULTPRESET Not Being Modest
 DERIVED FROM Base setup
-switch 01 : SB MIDI Clock @ 120
+switch 01 : SB MIDI Clock @ 121
 ;---------------------------------------------------------------
 * BANK : Ole 2021
 
