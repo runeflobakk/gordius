@@ -259,7 +259,10 @@ PEDALCURVE  03        005
 + 09 PC    003    
 + +   ZOIA
 ;---------------------------------------------------------------
-* PATCH    : Ole 2021
+* PATCH    : Heal
++ 02 PC    085    
++ +   ZOIA
++ +   Switch Mono Send
 ;---------------------------------------------------------------
 * TRIGGER  : Florence SubBass
 + 01 NOTE+ 037 127
@@ -1058,8 +1061,9 @@ DEFAULTPRESET Not Being Modest
 DERIVED FROM Base setup
 switch 01 : SB MIDI Clock @ 121
 ;---------------------------------------------------------------
-* BANK : Ole 2021
+* BANK : Heal
 
+DEFAULTPRESET Heal
 DERIVED FROM Base setup
 switch 01 : SB MIDI Clock @ 110
 ;---------------------------------------------------------------
@@ -1118,7 +1122,7 @@ Synthwave
 Not Foo Fighters 
 Second Nature    
 Euphoria Heights 
-Ole 2021         
+Heal             
 Not Being Modest 
 80s Darkweb      
 ;---------------------------------------------------------------
