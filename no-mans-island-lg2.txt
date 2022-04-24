@@ -91,7 +91,7 @@ MIDICHANNEL 12        12 [Active]     Channel 12
 MIDICHANNEL 13        13 [Active]     Channel 13
 MIDICHANNEL 14        14 [Active]     Switchblade
 MIDICHANNEL 15        15 [Active]     Channel 15
-MIDICHANNEL 16        16 [Active]     MicroKorg
+MIDICHANNEL 16        16 [Active]     microSTATION
 EXPRPEDAL   01 CONFIG 000
 EXPRPEDAL   01 DEAD_H 002
 EXPRPEDAL   01 DEAD_T 002
