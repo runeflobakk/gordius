@@ -142,17 +142,23 @@ PEDALCURVE  03        005
 * MACRO : Switch Mono Send
 14 PC    002    
 ;---------------------------------------------------------------
-* MACRO : microSTAT Bank D
-16 CC    000 000
-16 CC    032 003
-;---------------------------------------------------------------
 * MACRO : SynBass Wide Saw
-[M] microSTAT Bank D
+[M] microST Bank D
 16 PC    096    
 ;---------------------------------------------------------------
 * MACRO : SynBass Seqbass
-[M] microSTAT Bank D
+[M] microST Bank D
 16 PC    098    
+;---------------------------------------------------------------
+* MACRO : microST Bank D
+16 CC    000 000
+16 CC    032 003
+;---------------------------------------------------------------
+* MACRO : microST ARP ON
+16 CC    014 127
+;---------------------------------------------------------------
+* MACRO : microST ARP OFF
+16 CC    014 127
 ;---------------------------------------------------------------
 
 ;===============================================================
@@ -333,6 +339,13 @@ PEDALCURVE  03        005
 * STOMPBOX : Note C4
 + 01 NOTE+ 048 127
 - 01 NOTE- 048 127
+;---------------------------------------------------------------
+* STOMPBOX : Synthwave Clock
++ METRONOME    189
++ [M] microST ARP ON
++ -- MIDI_START   
+- -- MIDI_STOP    
+- METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 70
 + METRONOME    070
@@ -880,12 +893,6 @@ PEDALCURVE  03        005
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
-* STOMPBOX : MIDI Clock @ 189
-+ METRONOME    189
-+ -- MIDI_START   
-- -- MIDI_STOP    
-- METRONOME    000
-;---------------------------------------------------------------
 * EFFECT   : Tap tempo
 + TAPTEMPO     000
 ;---------------------------------------------------------------
@@ -1060,7 +1067,7 @@ switch 04 : ME Run Setup
 
 DEFAULTPRESET Synthwave
 DERIVED FROM Base setup
-switch 01 : SB MIDI Clock @ 189
+switch 01 : SB Synthwave Clock
 ext.sw.05 : ME MiKorg Arp Gate
 ;---------------------------------------------------------------
 * BANK : Not Foo Fighters
