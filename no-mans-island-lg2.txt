@@ -2,7 +2,7 @@
 ;=====   LittleGiant2 setup                                =====
 ;=====                                                     =====
 ;===== Filename : /Users/rune/Documents/gordius-lg2/gordius/no-mans-island-lg2 =====
-;===== Created  : 14/02/2022                               =====
+;===== Created  : 24/04/2022                               =====
 ;===== Version  : 3.0                                      =====
 ;===============================================================
 
@@ -1048,7 +1048,7 @@ switch 01 : SB MIDI Clock @ 130
 
 DEFAULTPRESET Second Nature
 DERIVED FROM Base setup
-switch 01 : SB MIDI Clock @ 128
+switch 01 : SB MIDI Clock @ 126
 ;---------------------------------------------------------------
 * BANK : Not Being Modest
 
