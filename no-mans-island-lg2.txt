@@ -279,6 +279,7 @@ PEDALCURVE  03        005
 ;---------------------------------------------------------------
 * PATCH    : Not Being Modest
 + 01 PC    035    
++ 02 PC    095    
 + 09 PC    003    
 + +   ZOIA
 + +   Switch Mono Send
