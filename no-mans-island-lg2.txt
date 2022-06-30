@@ -2,7 +2,7 @@
 ;=====   LittleGiant2 setup                                =====
 ;=====                                                     =====
 ;===== Filename : /Users/rune/Documents/gordius-lg2/gordius/no-mans-island-lg2 =====
-;===== Created  : 30/06/2022                               =====
+;===== Created  : 01/07/2022                               =====
 ;===== Version  : 3.0                                      =====
 ;===============================================================
 
@@ -261,6 +261,7 @@ PEDALCURVE  03        005
 * PATCH    : Synthwave
 + 09 PC    002    
 + 01 PC    037    
++ 02 PC    070    
 + +   ZOIA
 + +   Switch Mono Send
 + [M] SynBass Seqbass
