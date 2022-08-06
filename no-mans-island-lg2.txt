@@ -2,7 +2,7 @@
 ;=====   LittleGiant2 setup                                =====
 ;=====                                                     =====
 ;===== Filename : /Users/rune/Documents/gordius-lg2/gordius/no-mans-island-lg2 =====
-;===== Created  : 01/07/2022                               =====
+;===== Created  : 06/08/2022                               =====
 ;===== Version  : 3.0                                      =====
 ;===============================================================
 
@@ -357,547 +357,456 @@ PEDALCURVE  03        005
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 70
 + METRONOME    070
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 71
 + METRONOME    071
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 72
 + METRONOME    072
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 73
 + METRONOME    073
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 74
 + METRONOME    074
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 75
 + METRONOME    075
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 76
 + METRONOME    076
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 77
 + METRONOME    077
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 78
 + METRONOME    078
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 79
 + METRONOME    079
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 80
 + METRONOME    080
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 81
 + METRONOME    081
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 82
 + METRONOME    082
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 83
 + METRONOME    083
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 84
 + METRONOME    084
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 85
 + METRONOME    085
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 86
 + METRONOME    086
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 87
 + METRONOME    087
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 88
 + METRONOME    088
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 89
 + METRONOME    089
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 90
 + METRONOME    090
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 91
 + METRONOME    091
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 92
 + METRONOME    092
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 93
 + METRONOME    093
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 94
 + METRONOME    094
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 95
 + METRONOME    095
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 96
 + METRONOME    096
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 97
 + METRONOME    097
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 98
 + METRONOME    098
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 99
 + METRONOME    099
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 100
 + METRONOME    100
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 101
 + METRONOME    101
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 102
 + METRONOME    102
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 103
 + METRONOME    103
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 104
 + METRONOME    104
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 105
 + METRONOME    105
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 106
 + METRONOME    106
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 107
 + METRONOME    107
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 108
 + METRONOME    108
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 109
 + METRONOME    109
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 110
 + METRONOME    110
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 111
 + METRONOME    111
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 112
 + METRONOME    112
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 113
 + METRONOME    113
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 114
 + METRONOME    114
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 115
 + METRONOME    115
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 116
 + METRONOME    116
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 117
 + METRONOME    117
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 118
 + METRONOME    118
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 119
 + METRONOME    119
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 120
 + METRONOME    120
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 121
 + METRONOME    121
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 122
 + METRONOME    122
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 123
 + METRONOME    123
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 124
 + METRONOME    124
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 125
 + METRONOME    125
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 126
 + METRONOME    126
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 127
 + METRONOME    127
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 128
 + METRONOME    128
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 129
 + METRONOME    129
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 130
 + METRONOME    130
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 131
 + METRONOME    131
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 132
 + METRONOME    132
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 133
 + METRONOME    133
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 134
 + METRONOME    134
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 135
 + METRONOME    135
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 136
 + METRONOME    136
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 137
 + METRONOME    137
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 138
 + METRONOME    138
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 139
 + METRONOME    139
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 140
 + METRONOME    140
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 141
 + METRONOME    141
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 142
 + METRONOME    142
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 143
 + METRONOME    143
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 144
 + METRONOME    144
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 145
 + METRONOME    145
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 146
 + METRONOME    146
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 147
 + METRONOME    147
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 148
 + METRONOME    148
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 149
 + METRONOME    149
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 150
 + METRONOME    150
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 151
 + METRONOME    151
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 152
 + METRONOME    152
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 153
 + METRONOME    153
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 154
 + METRONOME    154
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 155
 + METRONOME    155
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 156
 + METRONOME    156
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 157
 + METRONOME    157
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 158
 + METRONOME    158
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 159
 + METRONOME    159
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
 * STOMPBOX : MIDI Clock @ 160
 + METRONOME    160
-+ -- MIDI_START   
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
