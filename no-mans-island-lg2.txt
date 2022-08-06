@@ -349,9 +349,9 @@ PEDALCURVE  03        005
 - 01 NOTE- 048 127
 ;---------------------------------------------------------------
 * STOMPBOX : Synthwave Clock
-+ METRONOME    189
 + [M] microST ARP ON
-+ -- MIDI_START   
++ BLOCK. DELAY 004
++ METRONOME    189
 - -- MIDI_STOP    
 - METRONOME    000
 ;---------------------------------------------------------------
