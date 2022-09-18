@@ -1,8 +1,8 @@
 ;===============================================================
 ;=====   LittleGiant2 setup                                =====
 ;=====                                                     =====
-;===== Filename : /Users/rune/Documents/gordius-lg2/gordius/no-mans-island-lg2 =====
-;===== Created  : 06/08/2022                               =====
+;===== Filename : /Users/rune/Documents/gordius/no-mans-island-lg2 =====
+;===== Created  : 18/09/2022                               =====
 ;===== Version  : 3.0                                      =====
 ;===============================================================
 
@@ -349,8 +349,6 @@ PEDALCURVE  03        005
 - 01 NOTE- 048 127
 ;---------------------------------------------------------------
 * STOMPBOX : Synthwave Clock
-+ [M] microST ARP ON
-+ BLOCK. DELAY 004
 + METRONOME    189
 - -- MIDI_STOP    
 - METRONOME    000
