@@ -67,8 +67,8 @@ USE_UPDWN_AS_D1D2     False
 USE_UPDWN_FOR_PRESETS False
 SHOW_EXT_SWITCHLEDS   False
 SHOW_EXT_LEDS_BELOW   False
-MIDIIN_TO_MIDIOUT     False
-MIDIIN_TO_USB         True
+MIDIIN_TO_MIDIOUT     True
+MIDIIN_TO_USB         False
 MSG_TO_MIDIOUT        True
 MSG_TO_USB            False
 DEFAULT_BANKLIST      No Man's Island
