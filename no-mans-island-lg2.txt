@@ -2,7 +2,7 @@
 ;=====   LittleGiant2 setup                                =====
 ;=====                                                     =====
 ;===== Filename : /Users/rune/Documents/gordius/no-mans-island-lg2 =====
-;===== Created  : 18/09/2022                               =====
+;===== Created  : 02/10/2022                               =====
 ;===== Version  : 3.0                                      =====
 ;===============================================================
 
@@ -71,7 +71,7 @@ MIDIIN_TO_MIDIOUT     True
 MIDIIN_TO_USB         False
 MSG_TO_MIDIOUT        True
 MSG_TO_USB            False
-DEFAULT_BANKLIST      No Man's Island
+DEFAULT_BANKLIST      Dattera 2022
 TIPHEEL DELAY         20
 NUM_BANKS             100
 GLOBAL_SWITCHES_L     0
@@ -1071,6 +1071,21 @@ Euphoria Heights
 Heal             
 Not Being Modest 
 80s Darkweb      
+;---------------------------------------------------------------
+* BANKLIST : Dattera 2022
+;-------------------------------
+Heal             
+80s Darkweb      
+Synthwave        
+LayDownYrShield  
+Run              
+No Pioneer       
+Flammable        
+Second Nature    
+Not Being Modest 
+Soldierette      
+Muscle Memory    
+Speed of Sound   
 ;---------------------------------------------------------------
 
 ;===============================================================
