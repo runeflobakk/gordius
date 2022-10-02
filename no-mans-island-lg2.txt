@@ -128,7 +128,7 @@ PEDALCURVE  03        005
 01 PC    021    
 02 PC    025    
 09 PC    001    
-+   ZOIA
++   Beebo
 ;---------------------------------------------------------------
 * MACRO : ZOIA ON
 09 CC    060 127
@@ -141,6 +141,9 @@ PEDALCURVE  03        005
 ;---------------------------------------------------------------
 * MACRO : Switch Mono Send
 14 PC    002    
+;---------------------------------------------------------------
+* MACRO : Switch Poly Send
+14 PC    004    
 ;---------------------------------------------------------------
 * MACRO : SynBass Wide Saw
 [M] microST Bank D
@@ -169,87 +172,87 @@ PEDALCURVE  03        005
 + 01 PC    006    
 + 02 PC    030    
 + 09 PC    002    
-+ +   ZOIA
++ +   Beebo
 ;---------------------------------------------------------------
 * PATCH    : Soldierette
 + 01 PC    024    
 + 02 PC    040    
 + 09 PC    002    
-+ +   ZOIA
++ +   Beebo
 ;---------------------------------------------------------------
 * PATCH    : Speed of Sound
 + 01 PC    020    
 + 02 PC    005    
 + 09 PC    002    
-+ +   ZOIA
++ +   Beebo
 ;---------------------------------------------------------------
 * PATCH    : Unbearable
 + 01 PC    013    
 + 02 PC    020    
 + 09 PC    002    
-+ -   ZOIA
++ -   Beebo
 ;---------------------------------------------------------------
 * PATCH    : Florence
 + 01 PC    012    
 + 02 PC    015    
 + 09 PC    002    
-+ +   ZOIA
++ +   Beebo
 ;---------------------------------------------------------------
 * PATCH    : Hearts Astray
 + 01 PC    023    
 + 02 PC    010    
 + 09 PC    004    
-+ +   ZOIA
++ +   Beebo
 ;---------------------------------------------------------------
 * PATCH    : Just Human
 + 01 PC    018    
 + 02 PC    055    
 + 09 PC    002    
-+ -   ZOIA
++ -   Beebo
 ;---------------------------------------------------------------
 * PATCH    : Muscle Memory
 + 01 PC    026    
 + 02 PC    050    
 + 09 PC    004    
-+ +   ZOIA
++ +   Beebo
 + [M] SynBass Wide Saw
 ;---------------------------------------------------------------
 * PATCH    : No Pioneer
 + 01 PC    000    
 + 02 PC    045    
 + 09 PC    002    
-+ +   ZOIA
++ +   Beebo
 ;---------------------------------------------------------------
 * PATCH    : Avalanche
 + 01 PC    001    
 + 02 PC    035    
 + 09 PC    005    
-+ +   ZOIA
++ +   Beebo
 ;---------------------------------------------------------------
 * PATCH    : Euphoria Heights
 + 01 PC    002    
 + 02 PC    060    
 + 09 PC    002    
-+ +   ZOIA
++ +   Beebo
 ;---------------------------------------------------------------
 * PATCH    : Reverie
 + 01 PC    003    
 + 02 PC    065    
-+ -   ZOIA
++ -   Beebo
 ;---------------------------------------------------------------
 * PATCH    : My Design
 + 01 PC    004    
 + 02 PC    127    
-+ -   ZOIA
++ -   Beebo
 ;---------------------------------------------------------------
 * PATCH    : Embers
 + 02 PC    127    
-+ -   ZOIA
++ -   Beebo
 ;---------------------------------------------------------------
 * PATCH    : LayDownYrShield
 + 01 PC    007    
 + 09 PC    002    
-+ +   ZOIA
++ +   Beebo
 + [M] SynBass Wide Saw
 ;---------------------------------------------------------------
 * PATCH    : Run
@@ -262,43 +265,38 @@ PEDALCURVE  03        005
 + 09 PC    002    
 + 01 PC    037    
 + 02 PC    070    
-+ +   ZOIA
-+ +   Switch Mono Send
++ +   Beebo
 + [M] SynBass Seqbass
 ;---------------------------------------------------------------
 * PATCH    : Not Foo Fighters
 + 09 PC    002    
 + 01 PC    032    
 + 02 PC    075    
-+ +   ZOIA
++ +   Beebo
 ;---------------------------------------------------------------
 * PATCH    : Second Nature
 + 01 PC    033    
 + 02 PC    080    
 + 09 PC    002    
-+ +   ZOIA
-+ +   Switch Mono Send
++ +   Beebo
 ;---------------------------------------------------------------
 * PATCH    : Not Being Modest
 + 01 PC    035    
 + 02 PC    095    
 + 09 PC    003    
-+ +   ZOIA
-+ +   Switch Mono Send
++ +   Beebo
 ;---------------------------------------------------------------
 * PATCH    : Heal
 + 01 PC    034    
 + 02 PC    085    
 + 09 PC    002    
-+ +   ZOIA
-+ +   Switch Mono Send
++ +   Beebo
 ;---------------------------------------------------------------
 * PATCH    : 80s Darkweb
 + 02 PC    090    
 + 01 PC    036    
 + 09 PC    002    
-+ +   Switch Mono Send
-+ +   ZOIA
++ +   Beebo
 ;---------------------------------------------------------------
 * TRIGGER  : Florence SubBass
 + 01 NOTE+ 037 127
@@ -312,16 +310,20 @@ PEDALCURVE  03        005
 * TRIGGER  : FlorenceIntroEND
 + 01 NOTE- 037 127
 + 05 NOTE- 038 127
-+ -   ZOIA
++ -   Beebo
+;---------------------------------------------------------------
+* STOMPBOX : Beebo
++ +   Switch Poly Send
+- -   Switch Poly Send
 ;---------------------------------------------------------------
 * STOMPBOX : ZOIA
 + [M] ZOIA ON
-+ +   Switch Mono Send
++ +   Switch Poly Send
 - [M] ZOIA OFF
-- -   Switch Mono Send
+- -   Switch Poly Send
 ;---------------------------------------------------------------
-* STOMPBOX : Switch Mono Send
-+ [M] Switch Mono Send
+* STOMPBOX : Switch Poly Send
++ [M] Switch Poly Send
 - [M] Switch Bypass
 ;---------------------------------------------------------------
 * STOMPBOX : Sustain
@@ -874,8 +876,8 @@ FlorenceIntroEND
 * BANK : Base setup
 
 switch 05 : ME Tap tempo
-switch 07 : SB Switch Mono Send
-switch 08 : SB ZOIA
+switch 07 : SB Switch Poly Send
+switch 08 : SB Beebo
 ext.sw.05 : ME MiKORG Sus+Latch
 ;---------------------------------------------------------------
 * BANK : Flammable
