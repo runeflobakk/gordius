@@ -1103,8 +1103,8 @@ Heal
 Synthwave        
 LayDownYrShield  
 Run              
-No Pioneer       
 Flammable        
+No Pioneer       
 Second Nature    
 Not Being Modest 
 Soldierette      
