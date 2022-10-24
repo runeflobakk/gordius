@@ -2,7 +2,7 @@
 ;=====   LittleGiant2 setup                                =====
 ;=====                                                     =====
 ;===== Filename : /Users/rune/Documents/gordius/no-mans-island-lg2 =====
-;===== Created  : 23/10/2022                               =====
+;===== Created  : 24/10/2022                               =====
 ;===== Version  : 3.0                                      =====
 ;===============================================================
 
@@ -277,7 +277,7 @@ PEDALCURVE  03        005
 * PATCH    : Run Tempo
 + +   MIDI Clock @ 115
 ;---------------------------------------------------------------
-* PATCH    : Synthwave
+* PATCH    : Waves
 + 09 PC    002    
 + 01 PC    037    
 + 02 PC    070    
@@ -313,7 +313,7 @@ PEDALCURVE  03        005
 + 13 PC    000    
 + +   Beebo
 ;---------------------------------------------------------------
-* PATCH    : 80s Darkweb
+* PATCH    : Always Rivalled
 + 02 PC    090    
 + 01 PC    036    
 + 09 PC    002    
@@ -374,7 +374,7 @@ PEDALCURVE  03        005
 + 01 NOTE+ 048 127
 - 01 NOTE- 048 127
 ;---------------------------------------------------------------
-* STOMPBOX : Synthwave Clock
+* STOMPBOX : Waves Clock
 + METRONOME    189
 - -- MIDI_STOP    
 - METRONOME    000
@@ -1004,11 +1004,11 @@ DERIVED FROM Base setup
 switch 01 : SB MIDI Clock @ 115
 switch 04 : ME Run Setup
 ;---------------------------------------------------------------
-* BANK : Synthwave
+* BANK : Waves
 
-DEFAULTPRESET Synthwave
+DEFAULTPRESET Waves
 DERIVED FROM Base setup
-switch 01 : SB Synthwave Clock
+switch 01 : SB Waves Clock
 ext.sw.05 : ME MiKorg Arp Gate
 ;---------------------------------------------------------------
 * BANK : Not Foo Fighters
@@ -1036,9 +1036,9 @@ DEFAULTPRESET Heal
 DERIVED FROM Base setup
 switch 01 : SB MIDI Clock @ 110
 ;---------------------------------------------------------------
-* BANK : 80s Darkweb
+* BANK : Always Rivalled
 
-DEFAULTPRESET 80s Darkweb
+DEFAULTPRESET Always Rivalled
 DERIVED FROM Base setup
 switch 01 : SB MIDI Clock @ 122
 ;---------------------------------------------------------------
@@ -1088,19 +1088,19 @@ No Pioneer
 Avalanche        
 LayDownYrShield  
 Run              
-Synthwave        
+Waves            
 Not Foo Fighters 
 Second Nature    
 Euphoria Heights 
 Heal             
 Not Being Modest 
-80s Darkweb      
+Always Rivalled  
 ;---------------------------------------------------------------
 * BANKLIST : Dattera 2022
 ;-------------------------------
 Heal             
-80s Darkweb      
-Synthwave        
+Always Rivalled  
+Waves            
 LayDownYrShield  
 Run              
 Flammable        
@@ -1115,5 +1115,6 @@ Speed of Sound
 ;===============================================================
 ;=====   SETLIST DATA                                      =====
 ;===============================================================
+
 
 
